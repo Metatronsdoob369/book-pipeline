@@ -1,13 +1,13 @@
 {
   "label": "flyover",
-  "created": "2026-10-12T11:37:04-07:00",
+  "created": "2026-10-12T11:53:21-07:00",
   "paths": [
     "/home/themachinist/Hive/10-Projects/flyover"
   ],
   "files": [
     {
       "path": "/home/themachinist/Hive/10-Projects/flyover/_flyover-Hub.md",
-      "sha256": "9d4bbc70606c3645a45b5fd524e33f01ed0b0d6d4462a1884b2a9487a287049f"
+      "sha256": "8439e52e16b0bdb14bd78c1b92e20903a61c4b40e3542a1a85df1c685d414dc8"
     },
     {
       "path": "/home/themachinist/Hive/10-Projects/flyover/AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
@@ -20,6 +20,10 @@
     {
       "path": "/home/themachinist/Hive/10-Projects/flyover/Capability Atlas.md",
       "sha256": "b1a01222a4a698fc0e938b7de7bd784fcc13a36d51de8f7f773f5fd8ffc0a1fd"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Contradictions — 2026-10-12.md",
+      "sha256": "4bb80e163a1ac8f0769165e7db465ab358eebedfe09d6df18e3f5148f605a352"
     },
     {
       "path": "/home/themachinist/Hive/10-Projects/flyover/Crew.md",

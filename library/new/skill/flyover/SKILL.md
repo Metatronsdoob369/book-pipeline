@@ -98,6 +98,15 @@ Flow: Manager card → Scout measures → Verifier checks → (Shot Maker builds
 
 ---
 
+## Resolved disagreements (2026-10-12)
+Source: `Contradictions — 2026-10-12.md`. Rule: measure where possible, else the newer dated note wins. Older notes still say the old thing — trust this list over them.
+- Splats = Route B, Marble = Route C. The Joint Decision's TRELLIS / splat / Grok rejections were one-shot verdicts (Failure Records Fracture 4).
+- Earth Studio: reference/decoding camera only, never in sellable pixels. Google 3D Tiles: NOT cleared for sale until a licence is read and filed (Commander).
+- Blender MCP (`:9876`) exists only while Blender runs with the addon — check the port before relying on it.
+- 5820: Windows host 128 GB, Xeon W-2145 8C/16T; WSL sees 62 GB / 10 threads. LAN IP is DHCP — address it as `t5820-wsl`.
+- Sun: chosen 20.7°/264.6° stands; the "EXIF drone timestamp" claim is unverified.
+- `quotable=false` CV boundary stands; OS-level UI automation stays rejected.
+
 ## Chapter Index
 | # | Title | Key frameworks |
 |---|---|---|

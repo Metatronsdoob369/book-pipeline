@@ -5,7 +5,7 @@
 **Scope note:** on 2026-09-07 this roofing framing became **v2** (parked, not abandoned); v1 is a location-agnostic cinematic flyover (Hub L44–45, L71–73). On 2026-10-05 the clubhouse was parked as the goal project and later kept as a benchmark/regression site (Hub L22; Inventory L40). The seven-stage Earth Studio pipeline below is the original design; later work moved to the measured-skeleton routes (ch02/ch03).
 
 ## Core Idea
-Google Earth as **coordinate system**, Earth Studio as **physically honest camera**, the property's **own photos** for appearance; "The Earth Studio pixels are throwaway; the geometry, the camera path and the sun are what we keep." (Pipeline L13) The invariant is **geometry**, not the roof's current surface.
+Google Earth as **coordinate system**, Earth Studio as **physically honest camera** *(v2 framing — since 2026-09-07 Earth Studio is reference-only, excluded from sellable content; see SKILL.md "Resolved disagreements")*, the property's **own photos** for appearance; "The Earth Studio pixels are throwaway; the geometry, the camera path and the sun are what we keep." (Pipeline L13) The invariant is **geometry**, not the roof's current surface.
 
 ## Frameworks Introduced
 - **Seven stages** (Pipeline L15–22): 1 Extract (hover-read anchors → `anchors.json`, permanent) · 2 Plan (`move.json` → `gt_build.py` → brief + KML + keyframes CSV) · 3 Build & render (Earth Studio, no API, human/browser-driven) · 4 Verify (`es_verify.py` → camera ENU, anchor pixels, pass/fail) · 5 Matrices (camera-to-world + intrinsics) · 6 Render · 7 QA (generated video's roof corners vs `anchor_pixels.csv`).

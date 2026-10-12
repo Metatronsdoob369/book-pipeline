@@ -2,18 +2,18 @@
   "schema": "book_pipeline.prechew.v1",
   "label": "flyover",
   "lane": "new",
-  "created": "2026-10-12T11:37:04-07:00",
+  "created": "2026-10-12T11:53:21-07:00",
   "source": {
     "kind": "multi",
     "root": "/home/themachinist/Hive/10-Projects/flyover",
-    "sha256": "911c3a4b55f7f6da7df8a9c877ba30234354cd4cc1a276e354230d1ecad25e1f",
+    "sha256": "a02ee637b755dfe8500fa39534df88e1411b9bc22a113c9716bc5d782e7e03d1",
     "files": [
       {
         "path": "_flyover-Hub.md",
-        "sha256": "9d4bbc70606c3645a45b5fd524e33f01ed0b0d6d4462a1884b2a9487a287049f",
+        "sha256": "8439e52e16b0bdb14bd78c1b92e20903a61c4b40e3542a1a85df1c685d414dc8",
         "format": "md",
         "method": "plain-text",
-        "tokens": 6721
+        "tokens": 6776
       },
       {
         "path": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
@@ -35,6 +35,13 @@
         "format": "md",
         "method": "plain-text",
         "tokens": 1357
+      },
+      {
+        "path": "Contradictions — 2026-10-12.md",
+        "sha256": "4bb80e163a1ac8f0769165e7db465ab358eebedfe09d6df18e3f5148f605a352",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 646
       },
       {
         "path": "Crew.md",
@@ -187,54 +194,54 @@
   },
   "text": {
     "path": "/home/themachinist/bench/book-pipeline/library/new/logs/run-flyover/extract/full_text.txt",
-    "sha256": "e57696bcf151668d6da2339a17cd6d56b06ce496f5bb529f7ca35ba1888465ca"
+    "sha256": "e2ab12b32b8cc9b6a393e8f5ff9f489bbec74e5cb771320dfb22a3846fec9e6b"
   },
   "totals": {
-    "tokens": 33129,
-    "words": 19289,
-    "chapters_total": 25,
-    "sections_total": 127,
-    "wikilinks_total": 73,
-    "files_total": 25
+    "tokens": 33974,
+    "words": 19815,
+    "chapters_total": 26,
+    "sections_total": 128,
+    "wikilinks_total": 74,
+    "files_total": 26
   },
   "terms": [
     "flyover",
     "earth",
-    "roof",
     "projects",
+    "roof",
     "camera",
     "studio",
     "engine",
+    "blender",
+    "path",
     "frame",
     "real",
-    "path",
-    "blender",
-    "json",
+    "decision",
     "google",
+    "json",
     "renders",
     "render",
-    "decision",
-    "photos",
     "session",
-    "twinmotion",
     "pipeline",
+    "photos",
+    "twinmotion",
     "geometry",
+    "mcp",
     "verified",
     "joe",
-    "claude",
-    "frames"
+    "claude"
   ],
   "chapters": [
     {
       "title": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
-      "source_sha256": "9d4bbc70606c3645a45b5fd524e33f01ed0b0d6d4462a1884b2a9487a287049f",
+      "source_sha256": "8439e52e16b0bdb14bd78c1b92e20903a61c4b40e3542a1a85df1c685d414dc8",
       "line_start": 1,
-      "line_end": 205,
+      "line_end": 207,
       "full_text_line_offset": 3,
-      "tokens": 9256,
-      "words": 5041,
-      "sha256": "263f66b117b69fe345c94981bf5d1b447ad61ea30a439f4fd963ba7236161295",
+      "tokens": 9328,
+      "words": 5082,
+      "sha256": "f3890a753e34e10aecb25af47f16d65fe1b62cc9a43dcd947846116ba1f53ef9",
       "lead": "→ Anyone picking up NoDrone work (human or agent): read [[Manager — Start Here]] first. It has the live task board.**",
       "headings": [
         {
@@ -245,142 +252,143 @@
         {
           "level": 2,
           "title": "Where we are (2026-10-07, evening) — FIRST GEOMETRY-LOCKED PHOTOREAL CLIP (Route A)",
-          "line": 12
+          "line": 14
         },
         {
           "level": 2,
           "title": "Where we are (2026-10-07) — fresh site: Bodie Island Light Station, stages 1–4a done",
-          "line": 20
+          "line": 22
         },
         {
           "level": 2,
           "title": "Where we are (2026-09-18) — sidecar GS in the same UE project, not the product",
-          "line": 28
+          "line": 30
         },
         {
           "level": 2,
           "title": "Where we are (2026-09-15, 5820)",
-          "line": 34
+          "line": 36
         },
         {
           "level": 2,
           "title": "Where we are (2026-09-02)",
-          "line": 44
+          "line": 46
         },
         {
           "level": 2,
           "title": "Where we are (2026-09-15) — capability assessment; 3D Tiles licensing flag",
-          "line": 47
+          "line": 49
         },
         {
           "level": 2,
           "title": "Where we are (2026-09-08) — mesh on the pad, Python unblocked, no clip yet",
-          "line": 53
+          "line": 55
         },
         {
           "level": 3,
           "title": "Gotchas (cost this session)",
-          "line": 64
+          "line": 66
         },
         {
           "level": 2,
           "title": "Where we are (2026-09-07) — v1 defined, licensing settled (superseded live-blocker)",
-          "line": 71
+          "line": 73
         },
         {
           "level": 2,
           "title": "Where we are (2026-09-05)",
-          "line": 79
+          "line": 81
         },
         {
           "level": 2,
           "title": "Where we were (2026-09-02)",
-          "line": 86
+          "line": 88
         },
         {
           "level": 2,
           "title": "Open decisions (Joe)",
-          "line": 98
+          "line": 100
         },
         {
           "level": 2,
           "title": "Missing inputs",
-          "line": 106
+          "line": 108
         },
         {
           "level": 2,
           "title": "Hard constraints",
-          "line": 112
+          "line": 114
         },
         {
           "level": 2,
           "title": "Adjacent assets (link, don't copy)",
-          "line": 117
+          "line": 119
         },
         {
           "level": 2,
           "title": "Notes in this folder (from the 2026-09-02/03 browser session)",
-          "line": 124
+          "line": 126
         },
         {
           "level": 3,
           "title": "Milestone: 3D AI Reconstructed Asset Extraction (2026-09-04)",
-          "line": 128
+          "line": 130
         },
         {
           "level": 3,
           "title": "Milestone: 661-Frame Trajectory Integration & Multi-Angle Flight Renders (2026-09-04)",
-          "line": 136
+          "line": 138
         },
         {
           "level": 3,
           "title": "Milestone: Mathematical Gate Correction & Oblique IoU Resolution (2026-09-04/05)",
-          "line": 143
+          "line": 145
         },
         {
           "level": 3,
           "title": "Milestone: InfiniSplat 3DGS Radiance Field & Drone Sweep (2026-09-05)",
-          "line": 148
+          "line": 150
         },
         {
           "level": 3,
           "title": "Milestone: Master 360° Composite Flight Across All 661 Frames (2026-09-05)",
-          "line": 154
+          "line": 156
         },
         {
           "level": 3,
           "title": "Milestone: Tooling Integration — Tripo 3D & Meshy MCP (2026-09-05)",
-          "line": 159
+          "line": 161
         },
         {
           "level": 3,
           "title": "Milestone: Dell Precision 5820 GPU Bench Commissioning & First Render (2026-09-05)",
-          "line": 164
+          "line": 166
         },
         {
           "level": 3,
           "title": "Milestone: Joint Pipeline Decision — merged audit, gate chain fixed, aspect gate suspended (2026-09-05, later session)",
-          "line": 172
+          "line": 174
         },
         {
           "level": 3,
           "title": "Milestone: Twinmotion/UE5 render pipeline scoped — renderer decision made, UI-automation route rejected (2026-09-05, later session)",
-          "line": 180
+          "line": 182
         },
         {
           "level": 3,
           "title": "Milestone: Server MCP & environment audit (2026-09-05, later session)",
-          "line": 189
+          "line": 191
         },
         {
           "level": 2,
           "title": "2026-09-17 (evening) — Candidate vertical: real estate drone marketing, Joe's own outreach",
-          "line": 200
+          "line": 202
         }
       ],
       "wikilinks": [
         "Capability Assessment — 2026-09-15",
         "Capability Atlas",
+        "Contradictions — 2026-10-12",
         "Crew",
         "Decision - Field of View 40",
         "Decision - Top keys offset 3 m",
@@ -405,21 +413,21 @@
       "links": [],
       "dates": {
         "first": "2026-09-01",
-        "last": "2026-10-08",
-        "count": 14
+        "last": "2026-10-12",
+        "count": 15
       },
       "code_blocks": 0,
       "table_rows": 0,
       "terms": [
         "flyover",
         "session",
-        "joe",
         "earth",
+        "joe",
         "blender",
         "mcp",
         "projects",
-        "google",
         "studio",
+        "google",
         "mesh",
         "twinmotion",
         "pipeline"
@@ -431,7 +439,7 @@
       "source_sha256": "24c273e9410fd38953532e19bd0a552ab32553c24f3265f7a7a508f6013e6602",
       "line_start": 1,
       "line_end": 77,
-      "full_text_line_offset": 210,
+      "full_text_line_offset": 212,
       "tokens": 1109,
       "words": 476,
       "sha256": "945b0120b209ed2f8b85224c0ebf87b1570189a1a868ad12a1238077d8dcf5d9",
@@ -488,7 +496,7 @@
       "source_sha256": "0014f3f24ea20b864f147f1e948ca58041ec86ab48e39ca0864be729491146d6",
       "line_start": 1,
       "line_end": 45,
-      "full_text_line_offset": 289,
+      "full_text_line_offset": 291,
       "tokens": 1524,
       "words": 858,
       "sha256": "7aebccb52a30a8fc1055db273de48d43473b108f65ca904fb33a3383ffdd9c31",
@@ -560,7 +568,7 @@
       "source_sha256": "b1a01222a4a698fc0e938b7de7bd784fcc13a36d51de8f7f773f5fd8ffc0a1fd",
       "line_start": 1,
       "line_end": 59,
-      "full_text_line_offset": 336,
+      "full_text_line_offset": 338,
       "tokens": 1699,
       "words": 1018,
       "sha256": "773051a74bda97ebd2b369bcc81c8ed5fa5bc6d3b4854d540948120f32aa9299",
@@ -630,12 +638,57 @@
       ]
     },
     {
+      "title": "Contradictions — 2026-10-12.md",
+      "source": "Contradictions — 2026-10-12.md",
+      "source_sha256": "4bb80e163a1ac8f0769165e7db465ab358eebedfe09d6df18e3f5148f605a352",
+      "line_start": 1,
+      "line_end": 24,
+      "full_text_line_offset": 399,
+      "tokens": 773,
+      "words": 485,
+      "sha256": "d03997c9f5fdb54d78a2c66ea147744d706db557698956aefe51df07a69e3c52",
+      "lead": "Found when the flyover folder was converted into the `flyover` agent skill (book-pipeline bench, see",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Flyover notes that disagree — resolved 2026-10-12",
+          "line": 2
+        }
+      ],
+      "wikilinks": [],
+      "links": [
+        "../_vendored-code-note.md",
+        "../book-pipeline/_book-pipeline-Hub.md"
+      ],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-10-12",
+        "count": 6
+      },
+      "code_blocks": 0,
+      "table_rows": 12,
+      "terms": [
+        "newer",
+        "decision",
+        "flyover",
+        "measured",
+        "exif",
+        "blueprint",
+        "book-pipeline",
+        "hub",
+        "note",
+        "licence",
+        "blender",
+        "mcp"
+      ]
+    },
+    {
       "title": "Crew.md",
       "source": "Crew.md",
       "source_sha256": "d1618a88eac3f99577d08eb001ff7df95aee51ac620c4c6f36e3227e9ae6db7b",
       "line_start": 1,
       "line_end": 48,
-      "full_text_line_offset": 397,
+      "full_text_line_offset": 425,
       "tokens": 742,
       "words": 477,
       "sha256": "fc3f21918b5a501dccd5ba6897a60be2238d8ce76a34f98dd3a03caeea2bb6f1",
@@ -706,7 +759,7 @@
       "source_sha256": "cce4c37173cfcbaa036402a16d443d333b61b6d9b3fb130b4b5a31b05439d96d",
       "line_start": 1,
       "line_end": 18,
-      "full_text_line_offset": 447,
+      "full_text_line_offset": 475,
       "tokens": 269,
       "words": 179,
       "sha256": "5497784d2018263af7722e308f69c44db92ce6183b1f41f4dfbfd4e30a77855c",
@@ -751,7 +804,7 @@
       "source_sha256": "08e78c0b2366d6ad4d456e58c9cfa02ee2d719e502b0e8096f8ebed18e83cd0e",
       "line_start": 1,
       "line_end": 14,
-      "full_text_line_offset": 467,
+      "full_text_line_offset": 495,
       "tokens": 165,
       "words": 115,
       "sha256": "8ea93d8e2227f30ccebb96f930e3da45a2c10067214afc082e55d34f4423e691",
@@ -795,7 +848,7 @@
       "source_sha256": "8a4d33e3c125de299e00056a86f87fcbd91400d119cc75c4d2f42afbc88180db",
       "line_start": 1,
       "line_end": 21,
-      "full_text_line_offset": 483,
+      "full_text_line_offset": 511,
       "tokens": 377,
       "words": 217,
       "sha256": "186311a7103c3261577ee4097f9b50a14d180fa1c9bece281c77b8a2c5f76b0f",
@@ -841,7 +894,7 @@
       "source_sha256": "85a6917bae4688a46527428c7bdeea5f01d75f86ade1c28e9815d27a6778662e",
       "line_start": 1,
       "line_end": 20,
-      "full_text_line_offset": 506,
+      "full_text_line_offset": 534,
       "tokens": 379,
       "words": 233,
       "sha256": "71240ec86ad18a3695211490323ef363454e67a86fd35c3386751d875928b52e",
@@ -886,7 +939,7 @@
       "source_sha256": "a8e479f488111fe8a545d1fcf40ddd8c53e1d288ed47afa37b4b3199f9a7b3a2",
       "line_start": 1,
       "line_end": 27,
-      "full_text_line_offset": 528,
+      "full_text_line_offset": 556,
       "tokens": 510,
       "words": 339,
       "sha256": "58f229656ad04de0f1a85ab73679cc135be16ccaace06a92c7f88fa1299ddeed",
@@ -934,7 +987,7 @@
       "source_sha256": "3092cad15e3e43195bbb972dab87e2f29ecee25415afd6662be8f98db3e29338",
       "line_start": 1,
       "line_end": 32,
-      "full_text_line_offset": 557,
+      "full_text_line_offset": 585,
       "tokens": 1525,
       "words": 889,
       "sha256": "787c88114da7203cf7ae9b7275e5cfc223b3ab686d6c2210057d0bbca235725e",
@@ -1008,7 +1061,7 @@
       "source_sha256": "dfd5c92e1d9642df09f28cbd63a3f8a55d6b08f2d693cfaebebbd84dc3949dcb",
       "line_start": 1,
       "line_end": 40,
-      "full_text_line_offset": 591,
+      "full_text_line_offset": 619,
       "tokens": 592,
       "words": 356,
       "sha256": "44efa687c647424aecf891f2c197e596f19f243b6fa643aee3847976930a9911",
@@ -1082,7 +1135,7 @@
       "source_sha256": "494dc7d86bb0d7af2feab82718c5ba6926d2bc756ba2467cb2628711a7ad571b",
       "line_start": 1,
       "line_end": 22,
-      "full_text_line_offset": 633,
+      "full_text_line_offset": 661,
       "tokens": 286,
       "words": 154,
       "sha256": "64fcb3a35e28644756919472c498b2e1dc9180d4ce7a7d44fce1a7492db3fb94",
@@ -1124,7 +1177,7 @@
       "source_sha256": "f928cf5618d496d513a3a0640e0c4638820c73f63c7530b5166e0cdd43f07cf5",
       "line_start": 1,
       "line_end": 43,
-      "full_text_line_offset": 657,
+      "full_text_line_offset": 685,
       "tokens": 884,
       "words": 473,
       "sha256": "9441ba32e4ac378f6fc2c0bb4afd40dd55f3d38355612ea7803b6460033ddd57",
@@ -1203,7 +1256,7 @@
       "source_sha256": "db6614f0784a7c71f9fba3d3e25274bc201a51cd1ace6d7b80ca8741422bc049",
       "line_start": 1,
       "line_end": 83,
-      "full_text_line_offset": 702,
+      "full_text_line_offset": 730,
       "tokens": 1372,
       "words": 747,
       "sha256": "15eca44b9e00a4c2940518c8a4d07ec656411f79f85143f446c76d5072aeb104",
@@ -1285,7 +1338,7 @@
       "source_sha256": "d86ac6ceb7f4b4d4c2dec5eb20747b4a66392bcc5dcf629b2ec81bc6fe45a2e5",
       "line_start": 1,
       "line_end": 52,
-      "full_text_line_offset": 787,
+      "full_text_line_offset": 815,
       "tokens": 1282,
       "words": 742,
       "sha256": "71de6896916f7b40f39c9d803fc66fc9416546c6f9adb96a50e4d894b1166fc2",
@@ -1359,7 +1412,7 @@
       "source_sha256": "b86c925200786e59f5b1f5dde8a5743c07a3201490292800b2a5947f9367d072",
       "line_start": 1,
       "line_end": 63,
-      "full_text_line_offset": 841,
+      "full_text_line_offset": 869,
       "tokens": 1619,
       "words": 1002,
       "sha256": "73d7f6fe421275f344e17a13648705c6066cdf3ca3d8c8c1cb9f69fa2dee35c5",
@@ -1430,7 +1483,7 @@
       "source_sha256": "53fa15d2862be6e9e73174a28eb77d4b42bb738e1d293b7e5e39a6913a65a7f6",
       "line_start": 1,
       "line_end": 56,
-      "full_text_line_offset": 906,
+      "full_text_line_offset": 934,
       "tokens": 1205,
       "words": 845,
       "sha256": "8a13c844f2d1f7b3688b792c2e4439da1e4a52732567e348c41eb4bcfe183340",
@@ -1500,7 +1553,7 @@
       "source_sha256": "9813cbf19bd2eef72cc3d26e27bde1626f2c9bbba5307a09a13dfa17253c3b25",
       "line_start": 1,
       "line_end": 13,
-      "full_text_line_offset": 964,
+      "full_text_line_offset": 992,
       "tokens": 107,
       "words": 79,
       "sha256": "89852f5a499c1248a784e34994ad5b1150a212cdd52b5a3a22481d763338e89b",
@@ -1540,7 +1593,7 @@
       "source_sha256": "5439b145fb9b4c058bee580610fa4a50e342ac9721d48a7c07559c35e4c06f2b",
       "line_start": 1,
       "line_end": 16,
-      "full_text_line_offset": 979,
+      "full_text_line_offset": 1007,
       "tokens": 161,
       "words": 92,
       "sha256": "c0e79985f9a5e3cdec63b28f921189a6e90d53c516626528033b8582f0ffffbc",
@@ -1580,7 +1633,7 @@
       "source_sha256": "607a8ad9b9bba2103b44ea20f60f05efd5f639a12ebdc6c756fc0035418c3b43",
       "line_start": 1,
       "line_end": 94,
-      "full_text_line_offset": 997,
+      "full_text_line_offset": 1025,
       "tokens": 4655,
       "words": 3024,
       "sha256": "ec423ffc16f44dfa0501007a625865cb761dcc04e34b5f96d32259145d4b3b34",
@@ -1664,7 +1717,7 @@
       "source_sha256": "1d3cfa1280b740fd225316bd93eae06c9eb7ba0262a9af4241ede6e3c1c00aa5",
       "line_start": 1,
       "line_end": 24,
-      "full_text_line_offset": 1093,
+      "full_text_line_offset": 1121,
       "tokens": 538,
       "words": 349,
       "sha256": "633c4a6a94ba8bb965280996fe3497363740778db58c7b7a50a7ff543fa9939e",
@@ -1709,7 +1762,7 @@
       "source_sha256": "c1ddf4eabc29f05fe02d22d3b9c7251a9b4d560ed26fdd244d27aca8d8f9136d",
       "line_start": 1,
       "line_end": 21,
-      "full_text_line_offset": 1119,
+      "full_text_line_offset": 1147,
       "tokens": 292,
       "words": 174,
       "sha256": "e2cd5ea9ba69c1a9a410015eaf42e80731c93da393b829a9f79377c0d063b2bb",
@@ -1751,7 +1804,7 @@
       "source_sha256": "ff0981e3fd76f6bea433e9447791422a826eda4720f5ee4159556978a77d5396",
       "line_start": 1,
       "line_end": 44,
-      "full_text_line_offset": 1142,
+      "full_text_line_offset": 1170,
       "tokens": 1669,
       "words": 929,
       "sha256": "e23fa163956e6f334d34cdba60c3bf69275796f86600fc7d0b3cb401358073b4",
@@ -1815,7 +1868,7 @@
       "source_sha256": "f976b6897667e13c9680e49cf1b55ceb6a8bbc08188830a1d60e898a4bee4a0f",
       "line_start": 1,
       "line_end": 27,
-      "full_text_line_offset": 1188,
+      "full_text_line_offset": 1216,
       "tokens": 912,
       "words": 481,
       "sha256": "f84ac92528cc9767382beeb8e1a756e88692d27be487cf7874a9f212e8eae4bd",

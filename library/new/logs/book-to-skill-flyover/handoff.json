@@ -1,9 +1,9 @@
 {
   "schema": "book_pipeline.skill_handoff.v1",
-  "created": "2026-10-12T11:37:04-07:00",
+  "created": "2026-10-12T11:53:21-07:00",
   "label": "flyover",
   "slug": "flyover",
-  "mode": "full-conversion",
+  "mode": "update-fold-in",
   "converter": {
     "root": "/home/themachinist/.agents/skills/book-to-skill",
     "commit": "a24e62f4d8caf2ee433f6e48d9073800f56f906e",
@@ -13,8 +13,8 @@
   "extract": {
     "full_text": "/home/themachinist/bench/book-pipeline/library/new/skill/flyover/_extract/full_text.txt",
     "metadata": "/home/themachinist/bench/book-pipeline/library/new/skill/flyover/_extract/metadata.json",
-    "tokens": 26081,
-    "sources": 25
+    "tokens": 26796,
+    "sources": 26
   },
   "skill_dir": "/home/themachinist/bench/book-pipeline/library/new/skill/flyover",
   "install_to": "/home/themachinist/.agents/skills/flyover",

@@ -1,7 +1,7 @@
 {
   "schema": "book_pipeline.shards.v1",
   "label": "flyover",
-  "created": "2026-10-12T11:37:04-07:00",
+  "created": "2026-10-12T11:53:21-07:00",
   "max_tokens": 2000,
   "dims": [
     "log_tokens",
@@ -12,7 +12,7 @@
   ],
   "text": {
     "path": "/home/themachinist/bench/book-pipeline/library/new/logs/run-flyover/extract/full_text.txt",
-    "sha256": "e57696bcf151668d6da2339a17cd6d56b06ce496f5bb529f7ca35ba1888465ca"
+    "sha256": "e2ab12b32b8cc9b6a393e8f5ff9f489bbec74e5cb771320dfb22a3846fec9e6b"
   },
   "shards": [
     {
@@ -22,15 +22,15 @@
       "source": "_flyover-Hub.md",
       "full_text_lines": [
         5,
-        14
+        16
       ],
-      "tokens": 318,
-      "sha256": "410c57166a8da98d7763eb7af708fe31c6b3c6254d89e44a23b82b5020cb148e",
+      "tokens": 390,
+      "sha256": "f1eb4faf6460f453d365cc81e054d2d07355ec3a3546f75655b6f3108d1ce430",
       "fingerprint_raw": [
-        5.76519,
-        0.766,
+        5.96871,
+        0.415,
         0.69315,
-        1.09861,
+        1.38629,
         0.0
       ]
     },
@@ -40,8 +40,8 @@
       "title": "Where we are (2026-10-07, evening) — FIRST GEOMETRY-LOCKED PHOTOREAL CLIP (Route A)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        15,
-        22
+        17,
+        24
       ],
       "tokens": 238,
       "sha256": "adea7b4749803a285ae4cb2f19f3b0acb868c052293d001f9f84ab6d602c98d3",
@@ -59,8 +59,8 @@
       "title": "Where we are (2026-10-07) — fresh site: Bodie Island Light Station, stages 1–4a done",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        23,
-        30
+        25,
+        32
       ],
       "tokens": 298,
       "sha256": "2fdd3c1e1516bedaf32ad03fb373e70f761a5c549e8e3c018c79096000812d91",
@@ -78,8 +78,8 @@
       "title": "Where we are (2026-09-18) — sidecar GS in the same UE project, not the product",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        31,
-        36
+        33,
+        38
       ],
       "tokens": 126,
       "sha256": "0b0d15b69caab5d8104c5f0cd5c3ed1c82edc04850a87a3efb8340365137e4e7",
@@ -97,8 +97,8 @@
       "title": "Where we are (2026-09-15, 5820)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        37,
-        49
+        39,
+        51
       ],
       "tokens": 476,
       "sha256": "735bf0daac8a22c15e8c11f97426b5262e0f988963226757e76f7b268ae37b47",
@@ -116,8 +116,8 @@
       "title": "Where we are (2026-09-15) — capability assessment; 3D Tiles licensing flag",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        50,
-        55
+        52,
+        57
       ],
       "tokens": 451,
       "sha256": "09fdec473a7e8942cbfa4c0fc607f814e7fe0b327365779172da6d8f6015f426",
@@ -135,8 +135,8 @@
       "title": "Where we are (2026-09-08) — mesh on the pad, Python unblocked, no clip yet",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        56,
-        66
+        58,
+        68
       ],
       "tokens": 556,
       "sha256": "0cadc52e0a1c113829f9c623be16468bfd8eacf4da9ce8503b074005b620a750",
@@ -154,8 +154,8 @@
       "title": "Gotchas (cost this session)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        67,
-        73
+        69,
+        75
       ],
       "tokens": 360,
       "sha256": "7c41819f47f4c23d987a080b4ebe383da3e06de57d42908e52f0a16b0bf68e73",
@@ -173,8 +173,8 @@
       "title": "Where we are (2026-09-07) — v1 defined, licensing settled (superseded live-blocker)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        74,
-        81
+        76,
+        83
       ],
       "tokens": 267,
       "sha256": "70e9732fa7b8eb17f4f00c13aad84de2c5b28fc353c0597d2ad09d3c3525d333",
@@ -192,8 +192,8 @@
       "title": "Where we are (2026-09-05)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        82,
-        88
+        84,
+        90
       ],
       "tokens": 324,
       "sha256": "c1f0ef59ea9844d4a4768eb7caa6dd773ac49bb1dfa1545ae261232d52a9de98",
@@ -211,8 +211,8 @@
       "title": "Where we were (2026-09-02)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        89,
-        100
+        91,
+        102
       ],
       "tokens": 1168,
       "sha256": "2fb6e22367c344934a5dd1421850ba3f2dbf29c2db6e310de1dfcbee2fab392b",
@@ -230,8 +230,8 @@
       "title": "Open decisions (Joe)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        101,
-        108
+        103,
+        110
       ],
       "tokens": 703,
       "sha256": "30aa5de2b1efa00a7e433972d204db0e45f07b7af207249bb940a03e9f196275",
@@ -249,8 +249,8 @@
       "title": "Missing inputs",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        109,
-        114
+        111,
+        116
       ],
       "tokens": 88,
       "sha256": "5c71e653c3bc7964a23155b866a8e025d5dab60a051cd8c5afe169889cfae4e7",
@@ -268,8 +268,8 @@
       "title": "Hard constraints",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        115,
-        119
+        117,
+        121
       ],
       "tokens": 73,
       "sha256": "e3263c8b3bd4c58532d05e72596b0a9b5068e6cbca3d9d38bab2f45fb48e3db4",
@@ -287,8 +287,8 @@
       "title": "Adjacent assets (link, don't copy)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        120,
-        126
+        122,
+        128
       ],
       "tokens": 131,
       "sha256": "5ee3b2d0557224a651a96173723c073d3f90c0a17e55a40681c6a9576ca4fc63",
@@ -306,8 +306,8 @@
       "title": "Notes in this folder (from the 2026-09-02/03 browser session)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        127,
-        130
+        129,
+        132
       ],
       "tokens": 90,
       "sha256": "c273da028ad97bdd460a5aac02a7d1fce13bdcb1de53055055b635763a30ec2e",
@@ -325,8 +325,8 @@
       "title": "Milestone: 3D AI Reconstructed Asset Extraction (2026-09-04)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        131,
-        138
+        133,
+        140
       ],
       "tokens": 152,
       "sha256": "3139635043994016bbecae8ed9665cbce2fc9ba47dd6c70d946e0876fc3e6260",
@@ -344,8 +344,8 @@
       "title": "Milestone: 661-Frame Trajectory Integration & Multi-Angle Flight Renders (2026-09-04)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        139,
-        145
+        141,
+        147
       ],
       "tokens": 166,
       "sha256": "64249bf40237bc876bcec3098197f9cb675b5368926fea352f8646a0904bfd38",
@@ -363,8 +363,8 @@
       "title": "Milestone: Mathematical Gate Correction & Oblique IoU Resolution (2026-09-04/05)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        146,
-        150
+        148,
+        152
       ],
       "tokens": 162,
       "sha256": "96c5eab9ae406484ef35e7860b971b860d125ec833ab78d77ffa02f22ea56cb5",
@@ -382,8 +382,8 @@
       "title": "Milestone: InfiniSplat 3DGS Radiance Field & Drone Sweep (2026-09-05)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        151,
-        156
+        153,
+        158
       ],
       "tokens": 146,
       "sha256": "59b8e19193dd8f20911798f42a070f9de016db10e2cc470503ca67c7f5e4652d",
@@ -401,8 +401,8 @@
       "title": "Milestone: Master 360° Composite Flight Across All 661 Frames (2026-09-05)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        157,
-        161
+        159,
+        163
       ],
       "tokens": 145,
       "sha256": "2cae18430f5332c6f59836a68c566035a678fb1621fe480a94ec85b3cc2a582d",
@@ -420,8 +420,8 @@
       "title": "Milestone: Tooling Integration — Tripo 3D & Meshy MCP (2026-09-05)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        162,
-        166
+        164,
+        168
       ],
       "tokens": 170,
       "sha256": "ad0e80d9cdd088e554606a1cd0a5982d0e8c2ef682512c62ce0603a954f9ac23",
@@ -439,8 +439,8 @@
       "title": "Milestone: Dell Precision 5820 GPU Bench Commissioning & First Render (2026-09-05)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        167,
-        174
+        169,
+        176
       ],
       "tokens": 420,
       "sha256": "5ac51340f8c9d12ae1d3c43b0a48a720d82ece08e6d9e92cafc2fee5abde52f2",
@@ -458,8 +458,8 @@
       "title": "Milestone: Joint Pipeline Decision — merged audit, gate chain fixed, aspect gate suspended (2026-09-05, later session)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        175,
-        182
+        177,
+        184
       ],
       "tokens": 540,
       "sha256": "a94f62923df021acc80cc72cc45cba08853b67e99155fefdc234d1f00c1e5b34",
@@ -477,8 +477,8 @@
       "title": "Milestone: Twinmotion/UE5 render pipeline scoped — renderer decision made, UI-automation route rejected (2026-09-05, later session)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        183,
-        191
+        185,
+        193
       ],
       "tokens": 802,
       "sha256": "d80f22b4ae632a737d015391b416aea989cb7d94cfbeac4e2626f3dc8862e6b7",
@@ -496,8 +496,8 @@
       "title": "Milestone: Server MCP & environment audit (2026-09-05, later session)",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        192,
-        202
+        194,
+        204
       ],
       "tokens": 686,
       "sha256": "600ea0a734c1188a8a99f572a4fdb6af13c29b88aa06b52947b91609c57963fa",
@@ -515,8 +515,8 @@
       "title": "2026-09-17 (evening) — Candidate vertical: real estate drone marketing, Joe's own outreach",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
-        203,
-        208
+        205,
+        210
       ],
       "tokens": 224,
       "sha256": "b64a6fb38ac1cb222429af88d77bc5d0109e7dd3bd434bd5f36d1e9f0e542ee9",
@@ -534,8 +534,8 @@
       "title": "AI Drone Cinematography & 3D Video Pipeline — Master Blueprint",
       "source": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
       "full_text_lines": [
-        211,
-        287
+        213,
+        289
       ],
       "tokens": 1129,
       "sha256": "b1166ac2b64adb3fd4b215de39e29bad1303bfe08735ad571c276a6759b638d6",
@@ -553,8 +553,8 @@
       "title": "What is possible — deterministic aerial footage of a real location (2026-09-15)",
       "source": "Capability Assessment — 2026-09-15.md",
       "full_text_lines": [
-        290,
-        334
+        292,
+        336
       ],
       "tokens": 1544,
       "sha256": "7ebfc03409eb700f7bc3f732c2656f4be2cbbef75d8b4e82ff1ca5a533278c0d",
@@ -572,8 +572,8 @@
       "title": "Capability Atlas — what the tools do, and what we can do with them (2026-10-07)",
       "source": "Capability Atlas.md",
       "full_text_lines": [
-        337,
-        395
+        339,
+        397
       ],
       "tokens": 1719,
       "sha256": "fb62b42484a50e0346657234fc971accfae5d082d87c54f80bde0387f43d7d5e",
@@ -587,12 +587,31 @@
     },
     {
       "id": "c004s000",
+      "chapter": "Contradictions — 2026-10-12.md",
+      "title": "Flyover notes that disagree — resolved 2026-10-12",
+      "source": "Contradictions — 2026-10-12.md",
+      "full_text_lines": [
+        400,
+        423
+      ],
+      "tokens": 793,
+      "sha256": "398772634d0b20bb9de3de83837a3e2b3c3c5c1046ab97b142fffdb5c21844a4",
+      "fingerprint_raw": [
+        6.67708,
+        0.955,
+        0.69315,
+        1.09861,
+        2.56495
+      ]
+    },
+    {
+      "id": "c005s000",
       "chapter": "Crew.md",
       "title": "NoDrone Crew — who does what, and how they talk (2026-10-08)",
       "source": "Crew.md",
       "full_text_lines": [
-        398,
-        445
+        426,
+        473
       ],
       "tokens": 762,
       "sha256": "6ec0536b2b1ff1050c453cdb945f47e542dad97849293d7b4869738516809c8f",
@@ -605,13 +624,13 @@
       ]
     },
     {
-      "id": "c005s000",
+      "id": "c006s000",
       "chapter": "Decision - Field of View 40.md",
       "title": "Decision: roof-hero move uses Field of View 40° vertical",
       "source": "Decision - Field of View 40.md",
       "full_text_lines": [
-        448,
-        465
+        476,
+        493
       ],
       "tokens": 289,
       "sha256": "72e5721bf8b4847a152abf2e47e0e8fed3f98e7083add960918a0fe6f564f36f",
@@ -624,13 +643,13 @@
       ]
     },
     {
-      "id": "c006s000",
+      "id": "c007s000",
       "chapter": "Decision - Top keys offset 3 m.md",
       "title": "Decision: the two top keys sit 3 m off the origin, not on it",
       "source": "Decision - Top keys offset 3 m.md",
       "full_text_lines": [
-        468,
-        481
+        496,
+        509
       ],
       "tokens": 185,
       "sha256": "8682646c5c65fbf4b6e9d14053c9a373d30379b919df504473ac6e3167ff0b84",
@@ -643,13 +662,13 @@
       ]
     },
     {
-      "id": "c007s000",
+      "id": "c008s000",
       "chapter": "Earth Ground Truth Skill.md",
       "title": "Earth Ground Truth → Flyover (Claude skill + engine)",
       "source": "Earth Ground Truth Skill.md",
       "full_text_lines": [
-        484,
-        504
+        512,
+        532
       ],
       "tokens": 397,
       "sha256": "9d572b48fb3709e408a2fe034d3fccfa213a87ffc2cb9da97a4f15e8b4ed7219",
@@ -662,13 +681,13 @@
       ]
     },
     {
-      "id": "c008s000",
+      "id": "c009s000",
       "chapter": "Earth Studio Export Format.md",
       "title": "Earth Studio 3D Tracking Data (JSON, Local coordinate space) — decoded",
       "source": "Earth Studio Export Format.md",
       "full_text_lines": [
-        507,
-        526
+        535,
+        554
       ],
       "tokens": 399,
       "sha256": "d37b5a8c0256fff7daf6251f58a5c6116d4c9cd2197625b0bb7f650bc584fbc3",
@@ -681,13 +700,13 @@
       ]
     },
     {
-      "id": "c009s000",
+      "id": "c010s000",
       "chapter": "Earth Studio Findings.md",
       "title": "Google Earth Studio — verified findings (2–3 Sep 2026)",
       "source": "Earth Studio Findings.md",
       "full_text_lines": [
-        529,
-        555
+        557,
+        583
       ],
       "tokens": 530,
       "sha256": "32a714be9e41cec0dca4cf90578a84bd38860478d68048c856476db1f9a1f630",
@@ -700,13 +719,13 @@
       ]
     },
     {
-      "id": "c010s000",
+      "id": "c011s000",
       "chapter": "Failure Records — 2026-09-06.md",
       "title": "Fracture 1 — Gate checked properties, not content",
       "source": "Failure Records — 2026-09-06.md",
       "full_text_lines": [
-        558,
-        589
+        586,
+        617
       ],
       "tokens": 1545,
       "sha256": "17675d0bd6a89dccc508ba82b1f3d3643d9b0de68a0f6d785f596f46ae617a25",
@@ -719,13 +738,13 @@
       ]
     },
     {
-      "id": "c011s000",
+      "id": "c012s000",
       "chapter": "Flyover Pipeline.md",
       "title": "Flyover Pipeline",
       "source": "Flyover Pipeline.md",
       "full_text_lines": [
-        592,
-        631
+        620,
+        659
       ],
       "tokens": 612,
       "sha256": "b5ed957b7d4598b5837a25d64219d01a3713aaa0eaf59eafe49fdc1b09849a4b",
@@ -738,13 +757,13 @@
       ]
     },
     {
-      "id": "c012s000",
+      "id": "c013s000",
       "chapter": "Flyover SaaS Backend.md",
       "title": "Flyover SaaS backend (designed in NotebookLM)",
       "source": "Flyover SaaS Backend.md",
       "full_text_lines": [
-        634,
-        655
+        662,
+        683
       ],
       "tokens": 306,
       "sha256": "a5a28bfdb956d4570c5bf57bacf693674da0f3c978b53cbb881f42ecea23f505",
@@ -757,13 +776,13 @@
       ]
     },
     {
-      "id": "c013s000",
+      "id": "c014s000",
       "chapter": "Inventory — 2026-10-07.md",
       "title": "Flyover / NoDrone — inventory (2026-10-07, swept live on the 5820)",
       "source": "Inventory — 2026-10-07.md",
       "full_text_lines": [
-        658,
-        700
+        686,
+        728
       ],
       "tokens": 904,
       "sha256": "58af7f339ce1d4b53eaa8026896fd3d0311558c511735b1b14e828a6de3b7b60",
@@ -776,13 +795,13 @@
       ]
     },
     {
-      "id": "c014s000",
+      "id": "c015s000",
       "chapter": "INVENTORY_AND_STATUS_QUO.md",
       "title": "Flyover System — Generated Inventory & Status Quo Audit",
       "source": "INVENTORY_AND_STATUS_QUO.md",
       "full_text_lines": [
-        703,
-        785
+        731,
+        813
       ],
       "tokens": 1392,
       "sha256": "531c10d253ee25cba9a7bcdbdb717a146d8d168f840f9ea38a3bf872bf7a3788",
@@ -795,13 +814,13 @@
       ]
     },
     {
-      "id": "c015s000",
+      "id": "c016s000",
       "chapter": "Joint Pipeline Decision.md",
       "title": "What it is",
       "source": "Joint Pipeline Decision.md",
       "full_text_lines": [
-        788,
-        839
+        816,
+        867
       ],
       "tokens": 1302,
       "sha256": "cae0d0095819515eeca011f7094406ef52f3698a478632903b23922a2abfd56d",
@@ -814,13 +833,13 @@
       ]
     },
     {
-      "id": "c016s000",
+      "id": "c017s000",
       "chapter": "Manager — Start Here.md",
       "title": "Manager — Start Here (NoDrone)",
       "source": "Manager — Start Here.md",
       "full_text_lines": [
-        842,
-        904
+        870,
+        932
       ],
       "tokens": 1639,
       "sha256": "72d3fb3943246fd621902a65feeda37fb99ae5037c6edccc33a0d78ef725bbbb",
@@ -833,13 +852,13 @@
       ]
     },
     {
-      "id": "c017s000",
+      "id": "c018s000",
       "chapter": "ONSC Clubhouse.md",
       "title": "ONSC Clubhouse — Old North State Club, Uwharrie Point, Badin Lake NC",
       "source": "ONSC Clubhouse.md",
       "full_text_lines": [
-        907,
-        962
+        935,
+        990
       ],
       "tokens": 1225,
       "sha256": "f097962d1a595643c1981548ef8b82277afbcc40ea6b20c518b5b2c7a3f62247",
@@ -852,13 +871,13 @@
       ]
     },
     {
-      "id": "c018s000",
+      "id": "c019s000",
       "chapter": "Open - Pacing 22 s vs 44 s.md",
       "title": "Open: 22 s stylised vs 44 s real-drone pace",
       "source": "Open - Pacing 22 s vs 44 s.md",
       "full_text_lines": [
-        965,
-        977
+        993,
+        1005
       ],
       "tokens": 127,
       "sha256": "160411c55919e39ffbe250fd04103f742687ef0845cf12976faab6245e04e730",
@@ -871,13 +890,13 @@
       ]
     },
     {
-      "id": "c019s000",
+      "id": "c020s000",
       "chapter": "Open - Renderer route.md",
       "title": "Open: which renderer route first",
       "source": "Open - Renderer route.md",
       "full_text_lines": [
-        980,
-        995
+        1008,
+        1023
       ],
       "tokens": 181,
       "sha256": "15b421f96ee6425f09b2b23ed25c2c9022cbf5d386adb06ab35d3e99763faab7",
@@ -890,13 +909,13 @@
       ]
     },
     {
-      "id": "c020s001",
+      "id": "c021s001",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Playbook — Generated Aerials (lessons that let the next agent start ahead)",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        999,
-        1002
+        1027,
+        1030
       ],
       "tokens": 82,
       "sha256": "bd9e2dd58bbef14eaa607bc4e1831f3a04c26d4c390b46c165ac58f3ae26db26",
@@ -909,13 +928,13 @@
       ]
     },
     {
-      "id": "c020s002",
+      "id": "c021s002",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "The pipeline that works (local, 8 GB GPU, no paid API)",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1003,
-        1010
+        1031,
+        1038
       ],
       "tokens": 345,
       "sha256": "8b0da97278018c001f6b27e9c3e0715553ecb0f084ba36379d1a557f712de79f",
@@ -928,13 +947,13 @@
       ]
     },
     {
-      "id": "c020s003",
+      "id": "c021s003",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Rules (each one cost us a run)",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1011,
-        1022
+        1039,
+        1050
       ],
       "tokens": 387,
       "sha256": "cf3edde12c363452ba041db0d897e54df5d91d68d89e26dc9a27a6f781552e60",
@@ -947,13 +966,13 @@
       ]
     },
     {
-      "id": "c020s004",
+      "id": "c021s004",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Heights: where they come from (Dubai test, 3 km radius, 11,760 buildings)",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1023,
-        1040
+        1051,
+        1068
       ],
       "tokens": 380,
       "sha256": "5921f1bccbdd05e374064609045d165ca05cfc66468c8f0c818101c5a96fc3e4",
@@ -966,13 +985,13 @@
       ]
     },
     {
-      "id": "c020s005",
+      "id": "c021s005",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Taste (the Commander's calls, all still binding)",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1041,
-        1048
+        1069,
+        1076
       ],
       "tokens": 141,
       "sha256": "a025b2d46e9314875de0dd121ec024217d7acc34e22f93a0abf5cdbaa2ab0867",
@@ -985,13 +1004,13 @@
       ]
     },
     {
-      "id": "c020s006",
+      "id": "c021s006",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Renders (for reference)",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1049,
-        1054
+        1077,
+        1082
       ],
       "tokens": 58,
       "sha256": "b8e17616bb0f7528c98aecf65d73448547daf230a85264baa05ae607994961ec",
@@ -1004,13 +1023,13 @@
       ]
     },
     {
-      "id": "c020s007",
+      "id": "c021s007",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Scout lessons",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1055,
-        1077
+        1083,
+        1105
       ],
       "tokens": 2198,
       "sha256": "644efe817a34d65874e955142534b4c4fe85612f66e663ff6a3cf38379a128d0",
@@ -1023,13 +1042,13 @@
       ]
     },
     {
-      "id": "c020s008",
+      "id": "c021s008",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Verifier lessons",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1078,
-        1082
+        1106,
+        1110
       ],
       "tokens": 560,
       "sha256": "9e5718340fb4b99a65cff0ab2bcd8a2ce6e8af1e47c306df44fe50cb0d09507f",
@@ -1042,13 +1061,13 @@
       ]
     },
     {
-      "id": "c020s009",
+      "id": "c021s009",
       "chapter": "Playbook — Generated Aerials.md",
       "title": "Shot Maker lessons",
       "source": "Playbook — Generated Aerials.md",
       "full_text_lines": [
-        1083,
-        1091
+        1111,
+        1119
       ],
       "tokens": 523,
       "sha256": "5de25bdccfe26727391e4c1c1cff0769b71a139754d8e947c33c49122c456182",
@@ -1061,13 +1080,13 @@
       ]
     },
     {
-      "id": "c021s000",
+      "id": "c022s000",
       "chapter": "Product - Shingle Visualization.md",
       "title": "Product: the prospect's roof, in any shingle",
       "source": "Product - Shingle Visualization.md",
       "full_text_lines": [
-        1094,
-        1117
+        1122,
+        1145
       ],
       "tokens": 558,
       "sha256": "5900ae7089c8650263b8b20f20b38e4b680d60524b55eb6b3f645a399c6b078c",
@@ -1080,13 +1099,13 @@
       ]
     },
     {
-      "id": "c022s000",
+      "id": "c023s000",
       "chapter": "Renderer Hand-off.md",
       "title": "Renderer hand-off (next stage)",
       "source": "Renderer Hand-off.md",
       "full_text_lines": [
-        1120,
-        1140
+        1148,
+        1168
       ],
       "tokens": 312,
       "sha256": "29b865d27992f8cd325f5abe11f2dad4a4fbfc46ad5ca880f46bc9918b86b7ed",
@@ -1099,13 +1118,13 @@
       ]
     },
     {
-      "id": "c023s000",
+      "id": "c024s000",
       "chapter": "Server MCP Environment Audit.md",
       "title": "MCP reality check — nothing Unreal/Blender is live from here",
       "source": "Server MCP Environment Audit.md",
       "full_text_lines": [
-        1143,
-        1186
+        1171,
+        1214
       ],
       "tokens": 1689,
       "sha256": "63ae632037ff2e27c82f343c2e7c3bad955ae5c5b50078b8edecb3efc227dd62",
@@ -1118,13 +1137,13 @@
       ]
     },
     {
-      "id": "c024s000",
+      "id": "c025s000",
       "chapter": "Twinmotion Agent Skill Plan (Antigravity).md",
       "title": "What it is",
       "source": "Twinmotion Agent Skill Plan (Antigravity).md",
       "full_text_lines": [
-        1189,
-        1215
+        1217,
+        1243
       ],
       "tokens": 912,
       "sha256": "f84ac92528cc9767382beeb8e1a756e88692d27be487cf7874a9f212e8eae4bd",
