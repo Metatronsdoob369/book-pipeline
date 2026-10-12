@@ -1,6 +1,6 @@
 # book-pipeline
 
-**One repo: `github.com/Metatronsdoob369/book-pipeline` (private).** Every machine clones this; no local-only copies.
+**One repo: `github.com/Metatronsdoob369/book-pipeline` (public).** Every machine clones this; no local-only copies.
 Built on the 5820 from the Hive hub's description, because the Mac's original (`/Users/joewales/NODE_OUT_Master/book-pipeline`)
 was never on GitHub and the Mac isn't reachable from the 5820. **Mac: merge your tree in here**
 (`git remote add origin … && git pull origin master --allow-unrelated-histories`) so DNA, the XML/NAUPA profiles and
