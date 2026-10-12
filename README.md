@@ -53,4 +53,16 @@ one lead line, table/code counts. An agent reads that (a fraction of the text), 
 `source.sha256`, `totals.tokens`, `totals.chapters_total` are the fields spectral-terrain's
 `scripts/geo_rag_ingest.py` reads for its 3-D structural fingerprint. Shards carry a 5-D prose extension of that
 fingerprint; heat = manhattan Σ|v|, shatter = euclidean distance from centroid (`engine/calibrate.ts`). The eve
-TriadGAT pass and Qdrant push live on the Mac; the bench map is the deterministic half.
+TriadGAT pass runs here too with `--eve` (after `--shard`); the Qdrant push stays on the Mac.
+
+## eve (`--eve`)
+
+`pipeline/eve_pass.py` mirrors `geo_rag_ingest.py`: K-NN graph over the normalized fingerprints → `TriadGATGraphRAG`
+→ per-shard `gat_heat` / `gat_shatter` / `rag_retrieved` and a corpus `gsi_score`, written into the heat map JSON.
+eve itself is **not in this repo** — it is pinned locally at `~/.local/share/eve/eve_v1.py` (provenance in
+`SOURCE.txt` there; never copy that file or its gist id here) and runs under `~/.local/share/eve-venv`
+(CPU torch + torch_geometric). Outputs record only eve's sha256.
+
+Known eve bug: `diffusion_lock` multiplies `(N,d)` landmarks by `M.unsqueeze(1)` `(N,1,N)`, which only works when it
+early-stops at t=0 or d == N. On larger corpora the pass falls back to eve's own t=0 GSI and says so in `gsi_note`.
+Flyover (60 shards): GSI 0.731, GAT heat tracks fingerprint heat at r = 0.96 (untrained GAT — expected).

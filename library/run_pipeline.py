@@ -7,7 +7,7 @@
 
 Ladder on the bench:  source -> extract (converter) -> prechew artifact -> human view
                                                       \\-> book-to-skill handoff -> agent SKILL.md -> install
-                                                      \\-> shard -> heat map (spectral-terrain fingerprint lineage)
+                                                      \\-> shard -> heat map (spectral-terrain fingerprint lineage) -> eve GAT (--eve)
 DNA / apply / hinge stay on the Mac; --skip-dna is accepted so Mac commands paste unchanged.
 Lane: --lane, else BOOK_PIPELINE_LIBRARY_LANE, else "new".
 """
@@ -61,6 +61,16 @@ def run(a):
         hot = sorted(heat["points"], key=lambda p: -p["heat"])[:3]
         print(f"[3/4] shard    {len(sd['shards'])} shards (cap {a.max_shard_tokens} tok) -> heat map; hottest: "
               + "; ".join(f"{p['title'][:40]} ({p['heat']})" for p in hot))
+        if a.eve:
+            import subprocess
+            from pipeline.eve_pass import EVE_PYTHON
+            hp = lane / "heatmaps" / f"{label}.heatmap.json"
+            r = subprocess.run([str(EVE_PYTHON), str(Path(__file__).resolve().parent.parent / "pipeline/eve_pass.py"), str(hp)],
+                               capture_output=True, text=True)
+            if r.returncode:
+                raise SystemExit("eve pass failed:\n" + r.stderr[-2000:])
+            print("      " + r.stdout.strip().splitlines()[-1])
+            heat = read_json(hp)
     else:
         print("[3/4] shard    skipped (--shard to enable)")
 
@@ -106,6 +116,7 @@ def main():
     p.add_argument("--to-skill", action="store_true")
     p.add_argument("--shard", action="store_true")
     p.add_argument("--max-shard-tokens", type=int, default=2000)
+    p.add_argument("--eve", action="store_true", help="after --shard: TriadGATGraphRAG pass (needs ~/.local/share/eve + eve-venv)")
     run(p.parse_args())
 
 

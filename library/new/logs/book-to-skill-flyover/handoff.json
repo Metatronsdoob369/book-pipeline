@@ -1,6 +1,6 @@
 {
   "schema": "book_pipeline.skill_handoff.v1",
-  "created": "2026-10-12T11:53:21-07:00",
+  "created": "2026-10-12T12:19:14-07:00",
   "label": "flyover",
   "slug": "flyover",
   "mode": "update-fold-in",

@@ -1,7 +1,7 @@
 {
   "schema": "book_pipeline.heatmap.v1",
   "label": "flyover",
-  "created": "2026-10-12T11:53:21-07:00",
+  "created": "2026-10-12T12:19:10-07:00",
   "dims": [
     "log_tokens",
     "hash_norm",
@@ -24,7 +24,7 @@
   "points": [
     {
       "id": "c000s001",
-      "title": "Flyover — CURRENT STATE",
+      "title": "Flyover \u2014 CURRENT STATE",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -46,11 +46,14 @@
         "c023s000",
         "c013s000",
         "c009s000"
-      ]
+      ],
+      "gat_heat": 12.25586,
+      "gat_shatter": 0.58126,
+      "rag_retrieved": false
     },
     {
       "id": "c000s002",
-      "title": "Where we are (2026-10-07, evening) — FIRST GEOMETRY-LOCKED PHOTOREAL CLIP (Route A)",
+      "title": "Where we are (2026-10-07, evening) \u2014 FIRST GEOMETRY-LOCKED PHOTOREAL CLIP (Route A)",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -72,11 +75,14 @@
         "c023s000",
         "c006s000",
         "c000s001"
-      ]
+      ],
+      "gat_heat": 11.16165,
+      "gat_shatter": 0.59508,
+      "rag_retrieved": false
     },
     {
       "id": "c000s003",
-      "title": "Where we are (2026-10-07) — fresh site: Bodie Island Light Station, stages 1–4a done",
+      "title": "Where we are (2026-10-07) \u2014 fresh site: Bodie Island Light Station, stages 1\u20134a done",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -98,11 +104,14 @@
         "c000s009",
         "c021s002",
         "c000s008"
-      ]
+      ],
+      "gat_heat": 7.99139,
+      "gat_shatter": 0.56923,
+      "rag_retrieved": false
     },
     {
       "id": "c000s004",
-      "title": "Where we are (2026-09-18) — sidecar GS in the same UE project, not the product",
+      "title": "Where we are (2026-09-18) \u2014 sidecar GS in the same UE project, not the product",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -124,7 +133,10 @@
         "c021s005",
         "c000s021",
         "c000s020"
-      ]
+      ],
+      "gat_heat": 6.08836,
+      "gat_shatter": 0.89556,
+      "rag_retrieved": false
     },
     {
       "id": "c000s005",
@@ -150,11 +162,14 @@
         "c000s023",
         "c000s007",
         "c021s008"
-      ]
+      ],
+      "gat_heat": 10.45133,
+      "gat_shatter": 0.46207,
+      "rag_retrieved": false
     },
     {
       "id": "c000s006",
-      "title": "Where we are (2026-09-15) — capability assessment; 3D Tiles licensing flag",
+      "title": "Where we are (2026-09-15) \u2014 capability assessment; 3D Tiles licensing flag",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -176,11 +191,14 @@
         "c000s026",
         "c009s000",
         "c000s025"
-      ]
+      ],
+      "gat_heat": 10.92121,
+      "gat_shatter": 0.35312,
+      "rag_retrieved": false
     },
     {
       "id": "c000s007",
-      "title": "Where we are (2026-09-08) — mesh on the pad, Python unblocked, no clip yet",
+      "title": "Where we are (2026-09-08) \u2014 mesh on the pad, Python unblocked, no clip yet",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -202,7 +220,10 @@
         "c021s009",
         "c000s023",
         "c021s003"
-      ]
+      ],
+      "gat_heat": 9.864,
+      "gat_shatter": 0.52941,
+      "rag_retrieved": false
     },
     {
       "id": "c000s008",
@@ -228,11 +249,14 @@
         "c021s003",
         "c000s010",
         "c000s023"
-      ]
+      ],
+      "gat_heat": 8.84054,
+      "gat_shatter": 0.61121,
+      "rag_retrieved": false
     },
     {
       "id": "c000s009",
-      "title": "Where we are (2026-09-07) — v1 defined, licensing settled (superseded live-blocker)",
+      "title": "Where we are (2026-09-07) \u2014 v1 defined, licensing settled (superseded live-blocker)",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -254,7 +278,10 @@
         "c000s010",
         "c021s002",
         "c000s008"
-      ]
+      ],
+      "gat_heat": 7.99139,
+      "gat_shatter": 0.56923,
+      "rag_retrieved": false
     },
     {
       "id": "c000s010",
@@ -280,7 +307,10 @@
         "c000s003",
         "c000s008",
         "c021s003"
-      ]
+      ],
+      "gat_heat": 8.32083,
+      "gat_shatter": 0.58485,
+      "rag_retrieved": false
     },
     {
       "id": "c000s011",
@@ -306,7 +336,10 @@
         "c010s000",
         "c022s000",
         "c008s000"
-      ]
+      ],
+      "gat_heat": 12.98353,
+      "gat_shatter": 0.56957,
+      "rag_retrieved": false
     },
     {
       "id": "c000s012",
@@ -332,7 +365,10 @@
         "c000s011",
         "c008s000",
         "c000s001"
-      ]
+      ],
+      "gat_heat": 13.11088,
+      "gat_shatter": 0.61117,
+      "rag_retrieved": false
     },
     {
       "id": "c000s013",
@@ -358,7 +394,10 @@
         "c000s004",
         "c000s015",
         "c021s006"
-      ]
+      ],
+      "gat_heat": 4.93596,
+      "gat_shatter": 0.80992,
+      "rag_retrieved": false
     },
     {
       "id": "c000s014",
@@ -384,7 +423,10 @@
         "c021s006",
         "c000s004",
         "c000s015"
-      ]
+      ],
+      "gat_heat": 4.64683,
+      "gat_shatter": 0.8538,
+      "rag_retrieved": false
     },
     {
       "id": "c000s015",
@@ -410,7 +452,10 @@
         "c021s005",
         "c000s021",
         "c000s020"
-      ]
+      ],
+      "gat_heat": 6.08836,
+      "gat_shatter": 0.89556,
+      "rag_retrieved": false
     },
     {
       "id": "c000s016",
@@ -436,7 +481,10 @@
         "c013s000",
         "c023s000",
         "c010s000"
-      ]
+      ],
+      "gat_heat": 11.58192,
+      "gat_shatter": 0.61622,
+      "rag_retrieved": false
     },
     {
       "id": "c000s017",
@@ -462,7 +510,10 @@
         "c000s021",
         "c000s019",
         "c021s005"
-      ]
+      ],
+      "gat_heat": 6.54391,
+      "gat_shatter": 0.84067,
+      "rag_retrieved": false
     },
     {
       "id": "c000s018",
@@ -488,7 +539,10 @@
         "c000s019",
         "c000s017",
         "c000s020"
-      ]
+      ],
+      "gat_heat": 5.88208,
+      "gat_shatter": 0.78015,
+      "rag_retrieved": false
     },
     {
       "id": "c000s019",
@@ -514,7 +568,10 @@
         "c000s022",
         "c000s017",
         "c000s020"
-      ]
+      ],
+      "gat_heat": 5.88208,
+      "gat_shatter": 0.78015,
+      "rag_retrieved": false
     },
     {
       "id": "c000s020",
@@ -540,11 +597,14 @@
         "c021s005",
         "c000s017",
         "c000s019"
-      ]
+      ],
+      "gat_heat": 7.03623,
+      "gat_shatter": 0.89874,
+      "rag_retrieved": false
     },
     {
       "id": "c000s021",
-      "title": "Milestone: Master 360° Composite Flight Across All 661 Frames (2026-09-05)",
+      "title": "Milestone: Master 360\u00b0 Composite Flight Across All 661 Frames (2026-09-05)",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -566,11 +626,14 @@
         "c021s005",
         "c000s017",
         "c000s015"
-      ]
+      ],
+      "gat_heat": 5.76667,
+      "gat_shatter": 0.83554,
+      "rag_retrieved": false
     },
     {
       "id": "c000s022",
-      "title": "Milestone: Tooling Integration — Tripo 3D & Meshy MCP (2026-09-05)",
+      "title": "Milestone: Tooling Integration \u2014 Tripo 3D & Meshy MCP (2026-09-05)",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -592,7 +655,10 @@
         "c000s019",
         "c000s017",
         "c000s020"
-      ]
+      ],
+      "gat_heat": 5.88208,
+      "gat_shatter": 0.78015,
+      "rag_retrieved": false
     },
     {
       "id": "c000s023",
@@ -618,11 +684,14 @@
         "c000s008",
         "c021s002",
         "c021s009"
-      ]
+      ],
+      "gat_heat": 9.62359,
+      "gat_shatter": 0.5677,
+      "rag_retrieved": false
     },
     {
       "id": "c000s024",
-      "title": "Milestone: Joint Pipeline Decision — merged audit, gate chain fixed, aspect gate suspended (2026-09-05, later session)",
+      "title": "Milestone: Joint Pipeline Decision \u2014 merged audit, gate chain fixed, aspect gate suspended (2026-09-05, later session)",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -644,11 +713,14 @@
         "c000s026",
         "c000s025",
         "c022s000"
-      ]
+      ],
+      "gat_heat": 11.06942,
+      "gat_shatter": 0.35212,
+      "rag_retrieved": false
     },
     {
       "id": "c000s025",
-      "title": "Milestone: Twinmotion/UE5 render pipeline scoped — renderer decision made, UI-automation route rejected (2026-09-05, later session)",
+      "title": "Milestone: Twinmotion/UE5 render pipeline scoped \u2014 renderer decision made, UI-automation route rejected (2026-09-05, later session)",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -670,7 +742,10 @@
         "c000s024",
         "c000s006",
         "c022s000"
-      ]
+      ],
+      "gat_heat": 10.95931,
+      "gat_shatter": 0.33831,
+      "rag_retrieved": false
     },
     {
       "id": "c000s026",
@@ -696,11 +771,14 @@
         "c000s024",
         "c000s006",
         "c022s000"
-      ]
+      ],
+      "gat_heat": 11.07607,
+      "gat_shatter": 0.34615,
+      "rag_retrieved": false
     },
     {
       "id": "c000s027",
-      "title": "2026-09-17 (evening) — Candidate vertical: real estate drone marketing, Joe's own outreach",
+      "title": "2026-09-17 (evening) \u2014 Candidate vertical: real estate drone marketing, Joe's own outreach",
       "chapter": "_flyover-Hub.md",
       "source": "_flyover-Hub.md",
       "full_text_lines": [
@@ -722,11 +800,14 @@
         "c020s000",
         "c019s000",
         "c006s000"
-      ]
+      ],
+      "gat_heat": 7.75235,
+      "gat_shatter": 0.50208,
+      "rag_retrieved": false
     },
     {
       "id": "c001s000",
-      "title": "AI Drone Cinematography & 3D Video Pipeline — Master Blueprint",
+      "title": "AI Drone Cinematography & 3D Video Pipeline \u2014 Master Blueprint",
       "chapter": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
       "source": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
       "full_text_lines": [
@@ -748,13 +829,16 @@
         "c002s000",
         "c016s000",
         "c000s005"
-      ]
+      ],
+      "gat_heat": 15.79798,
+      "gat_shatter": 0.85504,
+      "rag_retrieved": false
     },
     {
       "id": "c002s000",
-      "title": "What is possible — deterministic aerial footage of a real location (2026-09-15)",
-      "chapter": "Capability Assessment — 2026-09-15.md",
-      "source": "Capability Assessment — 2026-09-15.md",
+      "title": "What is possible \u2014 deterministic aerial footage of a real location (2026-09-15)",
+      "chapter": "Capability Assessment \u2014 2026-09-15.md",
+      "source": "Capability Assessment \u2014 2026-09-15.md",
       "full_text_lines": [
         292,
         336
@@ -774,11 +858,14 @@
         "c016s000",
         "c014s000",
         "c024s000"
-      ]
+      ],
+      "gat_heat": 17.54105,
+      "gat_shatter": 1.06511,
+      "rag_retrieved": true
     },
     {
       "id": "c003s000",
-      "title": "Capability Atlas — what the tools do, and what we can do with them (2026-10-07)",
+      "title": "Capability Atlas \u2014 what the tools do, and what we can do with them (2026-10-07)",
       "chapter": "Capability Atlas.md",
       "source": "Capability Atlas.md",
       "full_text_lines": [
@@ -800,13 +887,16 @@
         "c017s000",
         "c005s000",
         "c015s000"
-      ]
+      ],
+      "gat_heat": 22.56778,
+      "gat_shatter": 1.68543,
+      "rag_retrieved": true
     },
     {
       "id": "c004s000",
-      "title": "Flyover notes that disagree — resolved 2026-10-12",
-      "chapter": "Contradictions — 2026-10-12.md",
-      "source": "Contradictions — 2026-10-12.md",
+      "title": "Flyover notes that disagree \u2014 resolved 2026-10-12",
+      "chapter": "Contradictions \u2014 2026-10-12.md",
+      "source": "Contradictions \u2014 2026-10-12.md",
       "full_text_lines": [
         400,
         423
@@ -826,11 +916,14 @@
         "c022s000",
         "c000s025",
         "c000s026"
-      ]
+      ],
+      "gat_heat": 10.38752,
+      "gat_shatter": 0.30885,
+      "rag_retrieved": false
     },
     {
       "id": "c005s000",
-      "title": "NoDrone Crew — who does what, and how they talk (2026-10-08)",
+      "title": "NoDrone Crew \u2014 who does what, and how they talk (2026-10-08)",
       "chapter": "Crew.md",
       "source": "Crew.md",
       "full_text_lines": [
@@ -852,11 +945,14 @@
         "c017s000",
         "c003s000",
         "c014s000"
-      ]
+      ],
+      "gat_heat": 21.67729,
+      "gat_shatter": 1.56663,
+      "rag_retrieved": true
     },
     {
       "id": "c006s000",
-      "title": "Decision: roof-hero move uses Field of View 40° vertical",
+      "title": "Decision: roof-hero move uses Field of View 40\u00b0 vertical",
       "chapter": "Decision - Field of View 40.md",
       "source": "Decision - Field of View 40.md",
       "full_text_lines": [
@@ -878,7 +974,10 @@
         "c013s000",
         "c023s000",
         "c000s002"
-      ]
+      ],
+      "gat_heat": 9.90359,
+      "gat_shatter": 0.51772,
+      "rag_retrieved": false
     },
     {
       "id": "c007s000",
@@ -904,11 +1003,14 @@
         "c000s027",
         "c019s000",
         "c006s000"
-      ]
+      ],
+      "gat_heat": 7.60541,
+      "gat_shatter": 0.51677,
+      "rag_retrieved": false
     },
     {
       "id": "c008s000",
-      "title": "Earth Ground Truth → Flyover (Claude skill + engine)",
+      "title": "Earth Ground Truth \u2192 Flyover (Claude skill + engine)",
       "chapter": "Earth Ground Truth Skill.md",
       "source": "Earth Ground Truth Skill.md",
       "full_text_lines": [
@@ -930,11 +1032,14 @@
         "c023s000",
         "c013s000",
         "c009s000"
-      ]
+      ],
+      "gat_heat": 12.5094,
+      "gat_shatter": 0.58141,
+      "rag_retrieved": false
     },
     {
       "id": "c009s000",
-      "title": "Earth Studio 3D Tracking Data (JSON, Local coordinate space) — decoded",
+      "title": "Earth Studio 3D Tracking Data (JSON, Local coordinate space) \u2014 decoded",
       "chapter": "Earth Studio Export Format.md",
       "source": "Earth Studio Export Format.md",
       "full_text_lines": [
@@ -956,11 +1061,14 @@
         "c022s000",
         "c008s000",
         "c000s001"
-      ]
+      ],
+      "gat_heat": 11.28738,
+      "gat_shatter": 0.45828,
+      "rag_retrieved": false
     },
     {
       "id": "c010s000",
-      "title": "Google Earth Studio — verified findings (2–3 Sep 2026)",
+      "title": "Google Earth Studio \u2014 verified findings (2\u20133 Sep 2026)",
       "chapter": "Earth Studio Findings.md",
       "source": "Earth Studio Findings.md",
       "full_text_lines": [
@@ -982,13 +1090,16 @@
         "c008s000",
         "c000s001",
         "c023s000"
-      ]
+      ],
+      "gat_heat": 13.10963,
+      "gat_shatter": 0.61252,
+      "rag_retrieved": false
     },
     {
       "id": "c011s000",
-      "title": "Fracture 1 — Gate checked properties, not content",
-      "chapter": "Failure Records — 2026-09-06.md",
-      "source": "Failure Records — 2026-09-06.md",
+      "title": "Fracture 1 \u2014 Gate checked properties, not content",
+      "chapter": "Failure Records \u2014 2026-09-06.md",
+      "source": "Failure Records \u2014 2026-09-06.md",
       "full_text_lines": [
         586,
         617
@@ -1008,7 +1119,10 @@
         "c014s000",
         "c024s000",
         "c002s000"
-      ]
+      ],
+      "gat_heat": 17.72809,
+      "gat_shatter": 1.09236,
+      "rag_retrieved": true
     },
     {
       "id": "c012s000",
@@ -1034,7 +1148,10 @@
         "c000s012",
         "c010s000",
         "c014s000"
-      ]
+      ],
+      "gat_heat": 14.04268,
+      "gat_shatter": 0.62886,
+      "rag_retrieved": false
     },
     {
       "id": "c013s000",
@@ -1060,13 +1177,16 @@
         "c000s001",
         "c000s002",
         "c008s000"
-      ]
+      ],
+      "gat_heat": 11.44418,
+      "gat_shatter": 0.5975,
+      "rag_retrieved": false
     },
     {
       "id": "c014s000",
-      "title": "Flyover / NoDrone — inventory (2026-10-07, swept live on the 5820)",
-      "chapter": "Inventory — 2026-10-07.md",
-      "source": "Inventory — 2026-10-07.md",
+      "title": "Flyover / NoDrone \u2014 inventory (2026-10-07, swept live on the 5820)",
+      "chapter": "Inventory \u2014 2026-10-07.md",
+      "source": "Inventory \u2014 2026-10-07.md",
       "full_text_lines": [
         686,
         728
@@ -1086,11 +1206,14 @@
         "c011s000",
         "c002s000",
         "c024s000"
-      ]
+      ],
+      "gat_heat": 17.48416,
+      "gat_shatter": 1.03506,
+      "rag_retrieved": true
     },
     {
       "id": "c015s000",
-      "title": "Flyover System — Generated Inventory & Status Quo Audit",
+      "title": "Flyover System \u2014 Generated Inventory & Status Quo Audit",
       "chapter": "INVENTORY_AND_STATUS_QUO.md",
       "source": "INVENTORY_AND_STATUS_QUO.md",
       "full_text_lines": [
@@ -1112,7 +1235,10 @@
         "c018s000",
         "c017s000",
         "c005s000"
-      ]
+      ],
+      "gat_heat": 22.56778,
+      "gat_shatter": 1.68543,
+      "rag_retrieved": true
     },
     {
       "id": "c016s000",
@@ -1138,13 +1264,16 @@
         "c014s000",
         "c024s000",
         "c002s000"
-      ]
+      ],
+      "gat_heat": 17.54105,
+      "gat_shatter": 1.06511,
+      "rag_retrieved": true
     },
     {
       "id": "c017s000",
-      "title": "Manager — Start Here (NoDrone)",
-      "chapter": "Manager — Start Here.md",
-      "source": "Manager — Start Here.md",
+      "title": "Manager \u2014 Start Here (NoDrone)",
+      "chapter": "Manager \u2014 Start Here.md",
+      "source": "Manager \u2014 Start Here.md",
       "full_text_lines": [
         870,
         932
@@ -1164,11 +1293,14 @@
         "c003s000",
         "c005s000",
         "c015s000"
-      ]
+      ],
+      "gat_heat": 22.56778,
+      "gat_shatter": 1.68543,
+      "rag_retrieved": true
     },
     {
       "id": "c018s000",
-      "title": "ONSC Clubhouse — Old North State Club, Uwharrie Point, Badin Lake NC",
+      "title": "ONSC Clubhouse \u2014 Old North State Club, Uwharrie Point, Badin Lake NC",
       "chapter": "ONSC Clubhouse.md",
       "source": "ONSC Clubhouse.md",
       "full_text_lines": [
@@ -1190,7 +1322,10 @@
         "c017s000",
         "c005s000",
         "c015s000"
-      ]
+      ],
+      "gat_heat": 22.56778,
+      "gat_shatter": 1.68543,
+      "rag_retrieved": true
     },
     {
       "id": "c019s000",
@@ -1216,7 +1351,10 @@
         "c007s000",
         "c021s001",
         "c000s027"
-      ]
+      ],
+      "gat_heat": 7.05699,
+      "gat_shatter": 0.52459,
+      "rag_retrieved": false
     },
     {
       "id": "c020s000",
@@ -1242,13 +1380,16 @@
         "c000s027",
         "c019s000",
         "c006s000"
-      ]
+      ],
+      "gat_heat": 7.60541,
+      "gat_shatter": 0.51677,
+      "rag_retrieved": false
     },
     {
       "id": "c021s001",
-      "title": "Playbook — Generated Aerials (lessons that let the next agent start ahead)",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "title": "Playbook \u2014 Generated Aerials (lessons that let the next agent start ahead)",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1027,
         1030
@@ -1268,13 +1409,16 @@
         "c020s000",
         "c007s000",
         "c000s013"
-      ]
+      ],
+      "gat_heat": 6.15053,
+      "gat_shatter": 0.56164,
+      "rag_retrieved": false
     },
     {
       "id": "c021s002",
       "title": "The pipeline that works (local, 8 GB GPU, no paid API)",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1031,
         1038
@@ -1294,13 +1438,16 @@
         "c000s010",
         "c021s003",
         "c000s003"
-      ]
+      ],
+      "gat_heat": 8.84054,
+      "gat_shatter": 0.61121,
+      "rag_retrieved": false
     },
     {
       "id": "c021s003",
       "title": "Rules (each one cost us a run)",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1039,
         1050
@@ -1320,13 +1467,16 @@
         "c000s023",
         "c021s002",
         "c000s010"
-      ]
+      ],
+      "gat_heat": 9.47727,
+      "gat_shatter": 0.60377,
+      "rag_retrieved": false
     },
     {
       "id": "c021s004",
       "title": "Heights: where they come from (Dubai test, 3 km radius, 11,760 buildings)",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1051,
         1068
@@ -1346,13 +1496,16 @@
         "c021s003",
         "c000s008",
         "c021s002"
-      ]
+      ],
+      "gat_heat": 8.72284,
+      "gat_shatter": 0.44799,
+      "rag_retrieved": false
     },
     {
       "id": "c021s005",
       "title": "Taste (the Commander's calls, all still binding)",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1069,
         1076
@@ -1372,13 +1525,16 @@
         "c000s020",
         "c000s015",
         "c000s017"
-      ]
+      ],
+      "gat_heat": 5.76667,
+      "gat_shatter": 0.83554,
+      "rag_retrieved": false
     },
     {
       "id": "c021s006",
       "title": "Renders (for reference)",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1077,
         1082
@@ -1398,13 +1554,16 @@
         "c000s013",
         "c000s004",
         "c000s015"
-      ]
+      ],
+      "gat_heat": 4.64683,
+      "gat_shatter": 0.8538,
+      "rag_retrieved": false
     },
     {
       "id": "c021s007",
       "title": "Scout lessons",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1083,
         1105
@@ -1424,13 +1583,16 @@
         "c000s025",
         "c000s007",
         "c021s009"
-      ]
+      ],
+      "gat_heat": 9.78911,
+      "gat_shatter": 0.43646,
+      "rag_retrieved": false
     },
     {
       "id": "c021s008",
       "title": "Verifier lessons",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1106,
         1110
@@ -1450,13 +1612,16 @@
         "c021s009",
         "c000s023",
         "c021s003"
-      ]
+      ],
+      "gat_heat": 9.864,
+      "gat_shatter": 0.52941,
+      "rag_retrieved": false
     },
     {
       "id": "c021s009",
       "title": "Shot Maker lessons",
-      "chapter": "Playbook — Generated Aerials.md",
-      "source": "Playbook — Generated Aerials.md",
+      "chapter": "Playbook \u2014 Generated Aerials.md",
+      "source": "Playbook \u2014 Generated Aerials.md",
       "full_text_lines": [
         1111,
         1119
@@ -1476,7 +1641,10 @@
         "c021s008",
         "c000s023",
         "c021s003"
-      ]
+      ],
+      "gat_heat": 9.864,
+      "gat_shatter": 0.52941,
+      "rag_retrieved": false
     },
     {
       "id": "c022s000",
@@ -1502,7 +1670,10 @@
         "c008s000",
         "c000s001",
         "c000s024"
-      ]
+      ],
+      "gat_heat": 12.0749,
+      "gat_shatter": 0.43391,
+      "rag_retrieved": false
     },
     {
       "id": "c023s000",
@@ -1528,11 +1699,14 @@
         "c000s001",
         "c008s000",
         "c000s002"
-      ]
+      ],
+      "gat_heat": 11.77118,
+      "gat_shatter": 0.60473,
+      "rag_retrieved": false
     },
     {
       "id": "c024s000",
-      "title": "MCP reality check — nothing Unreal/Blender is live from here",
+      "title": "MCP reality check \u2014 nothing Unreal/Blender is live from here",
       "chapter": "Server MCP Environment Audit.md",
       "source": "Server MCP Environment Audit.md",
       "full_text_lines": [
@@ -1554,7 +1728,10 @@
         "c016s000",
         "c014s000",
         "c002s000"
-      ]
+      ],
+      "gat_heat": 16.9425,
+      "gat_shatter": 0.96989,
+      "rag_retrieved": true
     },
     {
       "id": "c025s000",
@@ -1580,7 +1757,43 @@
         "c000s011",
         "c022s000",
         "c010s000"
-      ]
+      ],
+      "gat_heat": 13.52349,
+      "gat_shatter": 0.56132,
+      "rag_retrieved": false
     }
-  ]
+  ],
+  "eve": {
+    "source": {
+      "file": "eve_v1.py",
+      "sha256": "4fe65079a8b6f6f271969380cb386b1056fc01eadcdbd6ce28aa19c9e5763c39"
+    },
+    "gat": {
+      "in_dim": 4,
+      "hid": 64,
+      "out": 128,
+      "layers": 3,
+      "heads": 4,
+      "seed": 0
+    },
+    "nodes": 60,
+    "edges": 318,
+    "gsi_score": 0.73122,
+    "gsi_note": "t=0 GSI: eve diffusion_lock shape bug past t=0 (The size of tensor a (4) must match the size of tensor b (60) at non-singleton dimension 2)",
+    "global_emb_norm": 0.865328,
+    "retrieval_hits": 10,
+    "triad_diagnostics": {
+      "current_tau_hess": 0.01,
+      "eigenval_count": 10,
+      "avg_hessian_trace": 15360.0,
+      "avg_operator_norm": 0.0,
+      "convergence_rate": 1,
+      "spectral_range": [
+        -6.711758048634047e-17,
+        0.41971540451049805
+      ],
+      "cache_hit_rate": 0.0,
+      "cache_size": 0
+    }
+  }
 }

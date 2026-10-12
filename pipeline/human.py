@@ -27,8 +27,13 @@ def _scatter(heat: dict) -> str:
         r = 4 + 3 * math.sqrt(p["tokens"] / 500)
         ring = ' stroke="#fff" stroke-width="1.5"' if p["shatter"] > 2 * smed else ""
         tip = f'{p["title"]} — {p["source"]} L{p["full_text_lines"][0]}-{p["full_text_lines"][1]} · heat {p["heat"]} · shatter {p["shatter"]}'
+        if "gat_heat" in p:
+            tip += f' · GAT heat {p["gat_heat"]} · GAT shatter {p["gat_shatter"]}' + (" · RAG hit" if p["rag_retrieved"] else "")
         dots.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{min(r, 16):.1f}" fill="{col}" fill-opacity=".8"{ring}><title>{E(tip)}</title></circle>')
-    return (f'<h2>Heat map — {len(pts)} shards</h2><p class="m">x = size · y = structure (headings, links, tables/code) · '
+    ev = heat.get("eve")
+    eve_line = (f'<p class="m">eve TriadGAT: {ev["nodes"]} nodes · {ev["edges"]} edges · GSI {ev["gsi_score"]} · '
+                f'{ev["retrieval_hits"]} RAG hits (untrained GAT — relational context; fingerprint heat is primary)</p>') if ev else ""
+    return (f'<h2>Heat map — {len(pts)} shards</h2>{eve_line}<p class="m">x = size · y = structure (headings, links, tables/code) · '
             f'colour = heat (blue cold → red hot) · white ring = shatter &gt; 2× median (outliers). Hover a dot.</p>'
             f'<svg viewBox="0 0 {W} {H}" role="img"><rect width="{W}" height="{H}" fill="var(--panel)"/>{"".join(dots)}'
             f'<text x="{P}" y="{H - 12}" class="ax">small</text><text x="{W - P}" y="{H - 12}" class="ax" text-anchor="end">large</text>'
