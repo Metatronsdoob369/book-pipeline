@@ -54,17 +54,8 @@ def main(path):
     heat = h.abs().sum(dim=1)
     shatter = torch.norm(h - h.mean(dim=0), dim=1)
     enhanced, retrieved = model.rag_strike(g.squeeze(0), h, g)
-    gsi_note = None
     with torch.no_grad():
-        try:
-            _, gsi = model.diffusion_lock(enhanced, torch.tensor(fp))
-        except RuntimeError as e:
-            # eve_v1 diffusion_lock multiplies (N,d) landmarks by M.unsqueeze(1) (N,1,N): only valid when the loop
-            # early-stops at t=0 (true for the 6-doc geo corpus) or d == N. Fall back to eve's own t=0 GSI.
-            t = torch.tensor(fp)
-            gen = t + 0.01 * torch.randn_like(t)
-            gsi = model.cs(gen.unsqueeze(1), t.unsqueeze(0), dim=-1).mean().item()
-            gsi_note = f"t=0 GSI: eve diffusion_lock shape bug past t=0 ({str(e)[:90]})"
+        _, gsi = model.diffusion_lock(enhanced, torch.tensor(fp))   # needs eve >= 2026-10-12 (diffusion_lock shape fix)
     retrieved = {int(i) for i in (retrieved.tolist() if hasattr(retrieved, "tolist") else retrieved)}
     for i, p in enumerate(pts):
         p["gat_heat"] = round(float(heat[i]), 5)
@@ -77,7 +68,6 @@ def main(path):
         "gat": {"in_dim": int(fp.shape[1]), "hid": max(32, out // 2), "out": out, "layers": 3, "heads": 4, "seed": 0},
         "nodes": n, "edges": len(edges),
         "gsi_score": round(float(gsi), 6),
-        "gsi_note": gsi_note,
         "global_emb_norm": round(float(g.norm()), 6),
         "retrieval_hits": len(retrieved),
         "triad_diagnostics": json.loads(json.dumps(diag, default=lambda o: o.tolist() if hasattr(o, "tolist") else str(o))),

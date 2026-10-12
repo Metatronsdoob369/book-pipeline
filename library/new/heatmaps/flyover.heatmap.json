@@ -1,7 +1,7 @@
 {
   "schema": "book_pipeline.heatmap.v1",
   "label": "flyover",
-  "created": "2026-10-12T12:19:10-07:00",
+  "created": "2026-10-12T12:22:02-07:00",
   "dims": [
     "log_tokens",
     "hash_norm",
@@ -47,8 +47,8 @@
         "c013s000",
         "c009s000"
       ],
-      "gat_heat": 12.25586,
-      "gat_shatter": 0.58126,
+      "gat_heat": 11.63114,
+      "gat_shatter": 0.56336,
       "rag_retrieved": false
     },
     {
@@ -76,8 +76,8 @@
         "c006s000",
         "c000s001"
       ],
-      "gat_heat": 11.16165,
-      "gat_shatter": 0.59508,
+      "gat_heat": 10.63783,
+      "gat_shatter": 0.58438,
       "rag_retrieved": false
     },
     {
@@ -105,8 +105,8 @@
         "c021s002",
         "c000s008"
       ],
-      "gat_heat": 7.99139,
-      "gat_shatter": 0.56923,
+      "gat_heat": 7.97786,
+      "gat_shatter": 0.54301,
       "rag_retrieved": false
     },
     {
@@ -134,8 +134,8 @@
         "c000s021",
         "c000s020"
       ],
-      "gat_heat": 6.08836,
-      "gat_shatter": 0.89556,
+      "gat_heat": 6.20157,
+      "gat_shatter": 0.89218,
       "rag_retrieved": false
     },
     {
@@ -163,8 +163,8 @@
         "c000s007",
         "c021s008"
       ],
-      "gat_heat": 10.45133,
-      "gat_shatter": 0.46207,
+      "gat_heat": 10.59341,
+      "gat_shatter": 0.42985,
       "rag_retrieved": false
     },
     {
@@ -192,8 +192,8 @@
         "c009s000",
         "c000s025"
       ],
-      "gat_heat": 10.92121,
-      "gat_shatter": 0.35312,
+      "gat_heat": 10.66028,
+      "gat_shatter": 0.35309,
       "rag_retrieved": false
     },
     {
@@ -221,8 +221,8 @@
         "c000s023",
         "c021s003"
       ],
-      "gat_heat": 9.864,
-      "gat_shatter": 0.52941,
+      "gat_heat": 9.87519,
+      "gat_shatter": 0.49876,
       "rag_retrieved": false
     },
     {
@@ -250,8 +250,8 @@
         "c000s010",
         "c000s023"
       ],
-      "gat_heat": 8.84054,
-      "gat_shatter": 0.61121,
+      "gat_heat": 8.91597,
+      "gat_shatter": 0.5854,
       "rag_retrieved": false
     },
     {
@@ -279,8 +279,8 @@
         "c021s002",
         "c000s008"
       ],
-      "gat_heat": 7.99139,
-      "gat_shatter": 0.56923,
+      "gat_heat": 7.97786,
+      "gat_shatter": 0.54301,
       "rag_retrieved": false
     },
     {
@@ -308,8 +308,8 @@
         "c000s008",
         "c021s003"
       ],
-      "gat_heat": 8.32083,
-      "gat_shatter": 0.58485,
+      "gat_heat": 8.33095,
+      "gat_shatter": 0.55745,
       "rag_retrieved": false
     },
     {
@@ -337,8 +337,8 @@
         "c022s000",
         "c008s000"
       ],
-      "gat_heat": 12.98353,
-      "gat_shatter": 0.56957,
+      "gat_heat": 12.6138,
+      "gat_shatter": 0.55891,
       "rag_retrieved": false
     },
     {
@@ -366,8 +366,8 @@
         "c008s000",
         "c000s001"
       ],
-      "gat_heat": 13.11088,
-      "gat_shatter": 0.61117,
+      "gat_heat": 12.73358,
+      "gat_shatter": 0.59923,
       "rag_retrieved": false
     },
     {
@@ -395,8 +395,8 @@
         "c000s015",
         "c021s006"
       ],
-      "gat_heat": 4.93596,
-      "gat_shatter": 0.80992,
+      "gat_heat": 5.00347,
+      "gat_shatter": 0.80957,
       "rag_retrieved": false
     },
     {
@@ -424,8 +424,8 @@
         "c000s004",
         "c000s015"
       ],
-      "gat_heat": 4.64683,
-      "gat_shatter": 0.8538,
+      "gat_heat": 4.7335,
+      "gat_shatter": 0.85102,
       "rag_retrieved": false
     },
     {
@@ -453,8 +453,8 @@
         "c000s021",
         "c000s020"
       ],
-      "gat_heat": 6.08836,
-      "gat_shatter": 0.89556,
+      "gat_heat": 6.20157,
+      "gat_shatter": 0.89218,
       "rag_retrieved": false
     },
     {
@@ -482,8 +482,8 @@
         "c023s000",
         "c010s000"
       ],
-      "gat_heat": 11.58192,
-      "gat_shatter": 0.61622,
+      "gat_heat": 11.14451,
+      "gat_shatter": 0.60602,
       "rag_retrieved": false
     },
     {
@@ -511,8 +511,8 @@
         "c000s019",
         "c021s005"
       ],
-      "gat_heat": 6.54391,
-      "gat_shatter": 0.84067,
+      "gat_heat": 6.57901,
+      "gat_shatter": 0.83236,
       "rag_retrieved": false
     },
     {
@@ -540,8 +540,8 @@
         "c000s017",
         "c000s020"
       ],
-      "gat_heat": 5.88208,
-      "gat_shatter": 0.78015,
+      "gat_heat": 5.88804,
+      "gat_shatter": 0.77114,
       "rag_retrieved": false
     },
     {
@@ -569,8 +569,8 @@
         "c000s017",
         "c000s020"
       ],
-      "gat_heat": 5.88208,
-      "gat_shatter": 0.78015,
+      "gat_heat": 5.88804,
+      "gat_shatter": 0.77114,
       "rag_retrieved": false
     },
     {
@@ -598,8 +598,8 @@
         "c000s017",
         "c000s019"
       ],
-      "gat_heat": 7.03623,
-      "gat_shatter": 0.89874,
+      "gat_heat": 7.12323,
+      "gat_shatter": 0.89202,
       "rag_retrieved": false
     },
     {
@@ -627,8 +627,8 @@
         "c000s017",
         "c000s015"
       ],
-      "gat_heat": 5.76667,
-      "gat_shatter": 0.83554,
+      "gat_heat": 5.82328,
+      "gat_shatter": 0.82945,
       "rag_retrieved": false
     },
     {
@@ -656,8 +656,8 @@
         "c000s017",
         "c000s020"
       ],
-      "gat_heat": 5.88208,
-      "gat_shatter": 0.78015,
+      "gat_heat": 5.88804,
+      "gat_shatter": 0.77114,
       "rag_retrieved": false
     },
     {
@@ -685,8 +685,8 @@
         "c021s002",
         "c021s009"
       ],
-      "gat_heat": 9.62359,
-      "gat_shatter": 0.5677,
+      "gat_heat": 9.66417,
+      "gat_shatter": 0.53589,
       "rag_retrieved": false
     },
     {
@@ -714,8 +714,8 @@
         "c000s025",
         "c022s000"
       ],
-      "gat_heat": 11.06942,
-      "gat_shatter": 0.35212,
+      "gat_heat": 10.82528,
+      "gat_shatter": 0.35132,
       "rag_retrieved": false
     },
     {
@@ -743,8 +743,8 @@
         "c000s006",
         "c022s000"
       ],
-      "gat_heat": 10.95931,
-      "gat_shatter": 0.33831,
+      "gat_heat": 10.74925,
+      "gat_shatter": 0.34032,
       "rag_retrieved": false
     },
     {
@@ -772,8 +772,8 @@
         "c000s006",
         "c022s000"
       ],
-      "gat_heat": 11.07607,
-      "gat_shatter": 0.34615,
+      "gat_heat": 10.83467,
+      "gat_shatter": 0.34403,
       "rag_retrieved": false
     },
     {
@@ -801,8 +801,8 @@
         "c019s000",
         "c006s000"
       ],
-      "gat_heat": 7.75235,
-      "gat_shatter": 0.50208,
+      "gat_heat": 7.32731,
+      "gat_shatter": 0.50793,
       "rag_retrieved": false
     },
     {
@@ -830,8 +830,8 @@
         "c016s000",
         "c000s005"
       ],
-      "gat_heat": 15.79798,
-      "gat_shatter": 0.85504,
+      "gat_heat": 15.8566,
+      "gat_shatter": 0.85234,
       "rag_retrieved": false
     },
     {
@@ -859,8 +859,8 @@
         "c014s000",
         "c024s000"
       ],
-      "gat_heat": 17.54105,
-      "gat_shatter": 1.06511,
+      "gat_heat": 17.57744,
+      "gat_shatter": 1.06604,
       "rag_retrieved": true
     },
     {
@@ -888,8 +888,8 @@
         "c005s000",
         "c015s000"
       ],
-      "gat_heat": 22.56778,
-      "gat_shatter": 1.68543,
+      "gat_heat": 22.89858,
+      "gat_shatter": 1.725,
       "rag_retrieved": true
     },
     {
@@ -917,8 +917,8 @@
         "c000s025",
         "c000s026"
       ],
-      "gat_heat": 10.38752,
-      "gat_shatter": 0.30885,
+      "gat_heat": 10.29871,
+      "gat_shatter": 0.30923,
       "rag_retrieved": false
     },
     {
@@ -946,8 +946,8 @@
         "c003s000",
         "c014s000"
       ],
-      "gat_heat": 21.67729,
-      "gat_shatter": 1.56663,
+      "gat_heat": 21.89578,
+      "gat_shatter": 1.60212,
       "rag_retrieved": true
     },
     {
@@ -975,8 +975,8 @@
         "c023s000",
         "c000s002"
       ],
-      "gat_heat": 9.90359,
-      "gat_shatter": 0.51772,
+      "gat_heat": 9.33774,
+      "gat_shatter": 0.51018,
       "rag_retrieved": false
     },
     {
@@ -1004,8 +1004,8 @@
         "c019s000",
         "c006s000"
       ],
-      "gat_heat": 7.60541,
-      "gat_shatter": 0.51677,
+      "gat_heat": 7.16345,
+      "gat_shatter": 0.52051,
       "rag_retrieved": false
     },
     {
@@ -1033,8 +1033,8 @@
         "c013s000",
         "c009s000"
       ],
-      "gat_heat": 12.5094,
-      "gat_shatter": 0.58141,
+      "gat_heat": 11.91331,
+      "gat_shatter": 0.56369,
       "rag_retrieved": false
     },
     {
@@ -1062,8 +1062,8 @@
         "c008s000",
         "c000s001"
       ],
-      "gat_heat": 11.28738,
-      "gat_shatter": 0.45828,
+      "gat_heat": 10.84751,
+      "gat_shatter": 0.45186,
       "rag_retrieved": false
     },
     {
@@ -1091,8 +1091,8 @@
         "c000s001",
         "c023s000"
       ],
-      "gat_heat": 13.10963,
-      "gat_shatter": 0.61252,
+      "gat_heat": 12.57113,
+      "gat_shatter": 0.59465,
       "rag_retrieved": false
     },
     {
@@ -1120,8 +1120,8 @@
         "c024s000",
         "c002s000"
       ],
-      "gat_heat": 17.72809,
-      "gat_shatter": 1.09236,
+      "gat_heat": 17.75358,
+      "gat_shatter": 1.09416,
       "rag_retrieved": true
     },
     {
@@ -1149,8 +1149,8 @@
         "c010s000",
         "c014s000"
       ],
-      "gat_heat": 14.04268,
-      "gat_shatter": 0.62886,
+      "gat_heat": 13.8307,
+      "gat_shatter": 0.62486,
       "rag_retrieved": false
     },
     {
@@ -1178,8 +1178,8 @@
         "c000s002",
         "c008s000"
       ],
-      "gat_heat": 11.44418,
-      "gat_shatter": 0.5975,
+      "gat_heat": 10.86599,
+      "gat_shatter": 0.584,
       "rag_retrieved": false
     },
     {
@@ -1207,8 +1207,8 @@
         "c002s000",
         "c024s000"
       ],
-      "gat_heat": 17.48416,
-      "gat_shatter": 1.03506,
+      "gat_heat": 17.53711,
+      "gat_shatter": 1.03729,
       "rag_retrieved": true
     },
     {
@@ -1236,8 +1236,8 @@
         "c017s000",
         "c005s000"
       ],
-      "gat_heat": 22.56778,
-      "gat_shatter": 1.68543,
+      "gat_heat": 22.89858,
+      "gat_shatter": 1.725,
       "rag_retrieved": true
     },
     {
@@ -1265,8 +1265,8 @@
         "c024s000",
         "c002s000"
       ],
-      "gat_heat": 17.54105,
-      "gat_shatter": 1.06511,
+      "gat_heat": 17.57744,
+      "gat_shatter": 1.06604,
       "rag_retrieved": true
     },
     {
@@ -1294,8 +1294,8 @@
         "c005s000",
         "c015s000"
       ],
-      "gat_heat": 22.56778,
-      "gat_shatter": 1.68543,
+      "gat_heat": 22.89858,
+      "gat_shatter": 1.725,
       "rag_retrieved": true
     },
     {
@@ -1323,8 +1323,8 @@
         "c005s000",
         "c015s000"
       ],
-      "gat_heat": 22.56778,
-      "gat_shatter": 1.68543,
+      "gat_heat": 22.89858,
+      "gat_shatter": 1.725,
       "rag_retrieved": true
     },
     {
@@ -1352,8 +1352,8 @@
         "c021s001",
         "c000s027"
       ],
-      "gat_heat": 7.05699,
-      "gat_shatter": 0.52459,
+      "gat_heat": 6.67108,
+      "gat_shatter": 0.53092,
       "rag_retrieved": false
     },
     {
@@ -1381,8 +1381,8 @@
         "c019s000",
         "c006s000"
       ],
-      "gat_heat": 7.60541,
-      "gat_shatter": 0.51677,
+      "gat_heat": 7.16345,
+      "gat_shatter": 0.52051,
       "rag_retrieved": false
     },
     {
@@ -1410,8 +1410,8 @@
         "c007s000",
         "c000s013"
       ],
-      "gat_heat": 6.15053,
-      "gat_shatter": 0.56164,
+      "gat_heat": 5.90125,
+      "gat_shatter": 0.56823,
       "rag_retrieved": false
     },
     {
@@ -1439,8 +1439,8 @@
         "c021s003",
         "c000s003"
       ],
-      "gat_heat": 8.84054,
-      "gat_shatter": 0.61121,
+      "gat_heat": 8.91597,
+      "gat_shatter": 0.5854,
       "rag_retrieved": false
     },
     {
@@ -1468,8 +1468,8 @@
         "c021s002",
         "c000s010"
       ],
-      "gat_heat": 9.47727,
-      "gat_shatter": 0.60377,
+      "gat_heat": 9.54717,
+      "gat_shatter": 0.57627,
       "rag_retrieved": false
     },
     {
@@ -1497,8 +1497,8 @@
         "c000s008",
         "c021s002"
       ],
-      "gat_heat": 8.72284,
-      "gat_shatter": 0.44799,
+      "gat_heat": 8.77386,
+      "gat_shatter": 0.43836,
       "rag_retrieved": false
     },
     {
@@ -1526,8 +1526,8 @@
         "c000s015",
         "c000s017"
       ],
-      "gat_heat": 5.76667,
-      "gat_shatter": 0.83554,
+      "gat_heat": 5.82328,
+      "gat_shatter": 0.82945,
       "rag_retrieved": false
     },
     {
@@ -1555,8 +1555,8 @@
         "c000s004",
         "c000s015"
       ],
-      "gat_heat": 4.64683,
-      "gat_shatter": 0.8538,
+      "gat_heat": 4.7335,
+      "gat_shatter": 0.85102,
       "rag_retrieved": false
     },
     {
@@ -1584,8 +1584,8 @@
         "c000s007",
         "c021s009"
       ],
-      "gat_heat": 9.78911,
-      "gat_shatter": 0.43646,
+      "gat_heat": 9.80388,
+      "gat_shatter": 0.41967,
       "rag_retrieved": false
     },
     {
@@ -1613,8 +1613,8 @@
         "c000s023",
         "c021s003"
       ],
-      "gat_heat": 9.864,
-      "gat_shatter": 0.52941,
+      "gat_heat": 9.87519,
+      "gat_shatter": 0.49876,
       "rag_retrieved": false
     },
     {
@@ -1642,8 +1642,8 @@
         "c000s023",
         "c021s003"
       ],
-      "gat_heat": 9.864,
-      "gat_shatter": 0.52941,
+      "gat_heat": 9.87519,
+      "gat_shatter": 0.49876,
       "rag_retrieved": false
     },
     {
@@ -1671,8 +1671,8 @@
         "c000s001",
         "c000s024"
       ],
-      "gat_heat": 12.0749,
-      "gat_shatter": 0.43391,
+      "gat_heat": 11.68066,
+      "gat_shatter": 0.42185,
       "rag_retrieved": false
     },
     {
@@ -1700,8 +1700,8 @@
         "c008s000",
         "c000s002"
       ],
-      "gat_heat": 11.77118,
-      "gat_shatter": 0.60473,
+      "gat_heat": 11.15915,
+      "gat_shatter": 0.58841,
       "rag_retrieved": false
     },
     {
@@ -1729,8 +1729,8 @@
         "c014s000",
         "c002s000"
       ],
-      "gat_heat": 16.9425,
-      "gat_shatter": 0.96989,
+      "gat_heat": 16.95793,
+      "gat_shatter": 0.97175,
       "rag_retrieved": true
     },
     {
@@ -1758,15 +1758,15 @@
         "c022s000",
         "c010s000"
       ],
-      "gat_heat": 13.52349,
-      "gat_shatter": 0.56132,
+      "gat_heat": 13.29373,
+      "gat_shatter": 0.55782,
       "rag_retrieved": false
     }
   ],
   "eve": {
     "source": {
       "file": "eve_v1.py",
-      "sha256": "4fe65079a8b6f6f271969380cb386b1056fc01eadcdbd6ce28aa19c9e5763c39"
+      "sha256": "ac27d2fe210f44171a05f7b08de9820cd8401ed17b1659582b0198489a7ca31a"
     },
     "gat": {
       "in_dim": 4,
@@ -1778,9 +1778,8 @@
     },
     "nodes": 60,
     "edges": 318,
-    "gsi_score": 0.73122,
-    "gsi_note": "t=0 GSI: eve diffusion_lock shape bug past t=0 (The size of tensor a (4) must match the size of tensor b (60) at non-singleton dimension 2)",
-    "global_emb_norm": 0.865328,
+    "gsi_score": 0.748193,
+    "global_emb_norm": 0.868545,
     "retrieval_hits": 10,
     "triad_diagnostics": {
       "current_tau_hess": 0.01,
@@ -1789,7 +1788,7 @@
       "avg_operator_norm": 0.0,
       "convergence_rate": 1,
       "spectral_range": [
-        -6.711758048634047e-17,
+        -2.478138353397897e-16,
         0.41971540451049805
       ],
       "cache_hit_rate": 0.0,

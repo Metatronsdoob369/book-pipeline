@@ -63,6 +63,5 @@ eve itself is **not in this repo** — it is pinned locally at `~/.local/share/e
 `SOURCE.txt` there; never copy that file or its gist id here) and runs under `~/.local/share/eve-venv`
 (CPU torch + torch_geometric). Outputs record only eve's sha256.
 
-Known eve bug: `diffusion_lock` multiplies `(N,d)` landmarks by `M.unsqueeze(1)` `(N,1,N)`, which only works when it
-early-stops at t=0 or d == N. On larger corpora the pass falls back to eve's own t=0 GSI and says so in `gsi_note`.
-Flyover (60 shards): GSI 0.731, GAT heat tracks fingerprint heat at r = 0.96 (untrained GAT — expected).
+eve needs the 2026-10-12 `diffusion_lock` fix (before it, every corpus where d ≠ N crashed past t=0).
+Flyover (60 shards): GSI 0.748, GAT heat tracks fingerprint heat at r = 0.96 (untrained GAT — expected).
