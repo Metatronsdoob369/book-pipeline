@@ -1,0 +1,5 @@
+__pycache__/
+*.tmp
+# raw text copies stay local; artifacts, shards, heat maps and skills are tracked
+library/*/logs/run-*/extract/
+library/*/skill/*/_extract/

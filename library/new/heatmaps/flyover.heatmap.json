@@ -1,0 +1,1560 @@
+{
+  "schema": "book_pipeline.heatmap.v1",
+  "label": "flyover",
+  "created": "2026-10-12T11:37:04-07:00",
+  "dims": [
+    "log_tokens",
+    "hash_norm",
+    "log_headings",
+    "log_links",
+    "log_technical"
+  ],
+  "metric": {
+    "heat": "manhattan sum|v| over structural dims",
+    "shatter": "euclidean distance from centroid"
+  },
+  "centroid": [
+    0.51957,
+    0.54904,
+    0.17512,
+    0.22465,
+    0.08171
+  ],
+  "shatter_median": 0.38051,
+  "points": [
+    {
+      "id": "c000s001",
+      "title": "Flyover — CURRENT STATE",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        5,
+        14
+      ],
+      "tokens": 318,
+      "fingerprint_norm": [
+        0.46643,
+        0.76181,
+        0.0,
+        0.40568,
+        0.0
+      ],
+      "heat": 0.87211,
+      "shatter": 0.27007,
+      "neighbours": [
+        "c005s000",
+        "c008s000",
+        "c022s000",
+        "c012s000"
+      ]
+    },
+    {
+      "id": "c000s002",
+      "title": "Where we are (2026-10-07, evening) — FIRST GEOMETRY-LOCKED PHOTOREAL CLIP (Route A)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        15,
+        22
+      ],
+      "tokens": 238,
+      "fingerprint_norm": [
+        0.38663,
+        0.33573,
+        0.0,
+        0.51191,
+        0.0
+      ],
+      "heat": 0.89855,
+      "shatter": 0.37086,
+      "neighbours": [
+        "c012s000",
+        "c022s000",
+        "c005s000",
+        "c000s001"
+      ]
+    },
+    {
+      "id": "c000s003",
+      "title": "Where we are (2026-10-07) — fresh site: Bodie Island Light Station, stages 1–4a done",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        23,
+        30
+      ],
+      "tokens": 298,
+      "fingerprint_norm": [
+        0.44854,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.44854,
+      "shatter": 0.30472,
+      "neighbours": [
+        "c000s010",
+        "c000s009",
+        "c020s002",
+        "c000s008"
+      ]
+    },
+    {
+      "id": "c000s004",
+      "title": "Where we are (2026-09-18) — sidecar GS in the same UE project, not the product",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        31,
+        36
+      ],
+      "tokens": 126,
+      "fingerprint_norm": [
+        0.21189,
+        0.90144,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.21189,
+      "shatter": 0.42717,
+      "neighbours": [
+        "c000s015",
+        "c020s005",
+        "c000s021",
+        "c000s020"
+      ]
+    },
+    {
+      "id": "c000s005",
+      "title": "Where we are (2026-09-15, 5820)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        37,
+        49
+      ],
+      "tokens": 476,
+      "fingerprint_norm": [
+        0.57763,
+        0.25667,
+        0.25193,
+        0.0,
+        0.0
+      ],
+      "heat": 0.82955,
+      "shatter": 0.25771,
+      "neighbours": [
+        "c020s009",
+        "c000s023",
+        "c000s007",
+        "c020s008"
+      ]
+    },
+    {
+      "id": "c000s006",
+      "title": "Where we are (2026-09-15) — capability assessment; 3D Tiles licensing flag",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        50,
+        55
+      ],
+      "tokens": 451,
+      "fingerprint_norm": [
+        0.56275,
+        0.0154,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.81871,
+      "shatter": 0.20047,
+      "neighbours": [
+        "c000s024",
+        "c000s026",
+        "c008s000",
+        "c000s025"
+      ]
+    },
+    {
+      "id": "c000s007",
+      "title": "Where we are (2026-09-08) — mesh on the pad, Python unblocked, no clip yet",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        56,
+        66
+      ],
+      "tokens": 556,
+      "fingerprint_norm": [
+        0.62048,
+        0.79466,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.62048,
+      "shatter": 0.31304,
+      "neighbours": [
+        "c020s008",
+        "c020s009",
+        "c000s023",
+        "c020s003"
+      ]
+    },
+    {
+      "id": "c000s008",
+      "title": "Gotchas (cost this session)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        67,
+        73
+      ],
+      "tokens": 360,
+      "fingerprint_norm": [
+        0.50062,
+        0.8039,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.50062,
+      "shatter": 0.29693,
+      "neighbours": [
+        "c020s002",
+        "c020s003",
+        "c000s010",
+        "c000s023"
+      ]
+    },
+    {
+      "id": "c000s009",
+      "title": "Where we are (2026-09-07) — v1 defined, licensing settled (superseded live-blocker)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        74,
+        81
+      ],
+      "tokens": 267,
+      "fingerprint_norm": [
+        0.41829,
+        0.55749,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.41829,
+      "shatter": 0.31316,
+      "neighbours": [
+        "c000s003",
+        "c000s010",
+        "c020s002",
+        "c000s008"
+      ]
+    },
+    {
+      "id": "c000s010",
+      "title": "Where we are (2026-09-05)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        82,
+        88
+      ],
+      "tokens": 324,
+      "fingerprint_norm": [
+        0.47158,
+        0.5924,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.47158,
+      "shatter": 0.30019,
+      "neighbours": [
+        "c020s002",
+        "c000s003",
+        "c000s008",
+        "c020s003"
+      ]
+    },
+    {
+      "id": "c000s011",
+      "title": "Where we were (2026-09-02)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        89,
+        100
+      ],
+      "tokens": 1168,
+      "fingerprint_norm": [
+        0.82537,
+        0.58624,
+        0.0,
+        0.59432,
+        0.0
+      ],
+      "heat": 1.41968,
+      "shatter": 0.51722,
+      "neighbours": [
+        "c000s012",
+        "c009s000",
+        "c021s000",
+        "c007s000"
+      ]
+    },
+    {
+      "id": "c000s012",
+      "title": "Open decisions (Joe)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        101,
+        108
+      ],
+      "tokens": 703,
+      "fingerprint_norm": [
+        0.68521,
+        0.51129,
+        0.0,
+        0.76787,
+        0.0
+      ],
+      "heat": 1.45308,
+      "shatter": 0.5999,
+      "neighbours": [
+        "c009s000",
+        "c000s011",
+        "c007s000",
+        "c022s000"
+      ]
+    },
+    {
+      "id": "c000s013",
+      "title": "Missing inputs",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        109,
+        114
+      ],
+      "tokens": 88,
+      "fingerprint_norm": [
+        0.11362,
+        0.38912,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.11362,
+      "shatter": 0.5026,
+      "neighbours": [
+        "c000s014",
+        "c000s004",
+        "c000s015",
+        "c020s006"
+      ]
+    },
+    {
+      "id": "c000s014",
+      "title": "Hard constraints",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        115,
+        119
+      ],
+      "tokens": 73,
+      "fingerprint_norm": [
+        0.06261,
+        0.89836,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.06261,
+      "shatter": 0.54463,
+      "neighbours": [
+        "c000s013",
+        "c020s006",
+        "c000s004",
+        "c000s015"
+      ]
+    },
+    {
+      "id": "c000s015",
+      "title": "Adjacent assets (link, don't copy)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        120,
+        126
+      ],
+      "tokens": 131,
+      "fingerprint_norm": [
+        0.22256,
+        0.74743,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.22256,
+      "shatter": 0.41955,
+      "neighbours": [
+        "c000s004",
+        "c020s005",
+        "c000s021",
+        "c000s020"
+      ]
+    },
+    {
+      "id": "c000s016",
+      "title": "Notes in this folder (from the 2026-09-02/03 browser session)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        127,
+        130
+      ],
+      "tokens": 90,
+      "fingerprint_norm": [
+        0.11976,
+        0.33881,
+        0.0,
+        0.88547,
+        0.0
+      ],
+      "heat": 1.00523,
+      "shatter": 0.79616,
+      "neighbours": [
+        "c000s002",
+        "c012s000",
+        "c022s000",
+        "c009s000"
+      ]
+    },
+    {
+      "id": "c000s017",
+      "title": "Milestone: 3D AI Reconstructed Asset Extraction (2026-09-04)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        131,
+        138
+      ],
+      "tokens": 152,
+      "fingerprint_norm": [
+        0.26336,
+        0.55031,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.26336,
+      "shatter": 0.39173,
+      "neighbours": [
+        "c000s020",
+        "c000s021",
+        "c000s019",
+        "c020s005"
+      ]
+    },
+    {
+      "id": "c000s018",
+      "title": "Milestone: 661-Frame Trajectory Integration & Multi-Angle Flight Renders (2026-09-04)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        139,
+        145
+      ],
+      "tokens": 166,
+      "fingerprint_norm": [
+        0.28756,
+        0.81725,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.28756,
+      "shatter": 0.37635,
+      "neighbours": [
+        "c000s022",
+        "c000s019",
+        "c000s017",
+        "c000s020"
+      ]
+    },
+    {
+      "id": "c000s019",
+      "title": "Milestone: Mathematical Gate Correction & Oblique IoU Resolution (2026-09-04/05)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        146,
+        150
+      ],
+      "tokens": 162,
+      "fingerprint_norm": [
+        0.28086,
+        0.05852,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.28086,
+      "shatter": 0.38051,
+      "neighbours": [
+        "c000s018",
+        "c000s022",
+        "c000s017",
+        "c000s020"
+      ]
+    },
+    {
+      "id": "c000s020",
+      "title": "Milestone: InfiniSplat 3DGS Radiance Field & Drone Sweep (2026-09-05)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        151,
+        156
+      ],
+      "tokens": 146,
+      "fingerprint_norm": [
+        0.2523,
+        0.58419,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.2523,
+      "shatter": 0.39905,
+      "neighbours": [
+        "c000s021",
+        "c020s005",
+        "c000s017",
+        "c000s019"
+      ]
+    },
+    {
+      "id": "c000s021",
+      "title": "Milestone: Master 360° Composite Flight Across All 661 Frames (2026-09-05)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        157,
+        161
+      ],
+      "tokens": 145,
+      "fingerprint_norm": [
+        0.25042,
+        0.98049,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.25042,
+      "shatter": 0.40031,
+      "neighbours": [
+        "c000s020",
+        "c020s005",
+        "c000s017",
+        "c000s015"
+      ]
+    },
+    {
+      "id": "c000s022",
+      "title": "Milestone: Tooling Integration — Tripo 3D & Meshy MCP (2026-09-05)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        162,
+        166
+      ],
+      "tokens": 170,
+      "fingerprint_norm": [
+        0.2941,
+        0.85524,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.2941,
+      "shatter": 0.37235,
+      "neighbours": [
+        "c000s018",
+        "c000s019",
+        "c000s017",
+        "c000s020"
+      ]
+    },
+    {
+      "id": "c000s023",
+      "title": "Milestone: Dell Precision 5820 GPU Bench Commissioning & First Render (2026-09-05)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        167,
+        174
+      ],
+      "tokens": 420,
+      "fingerprint_norm": [
+        0.54311,
+        0.96099,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.54311,
+      "shatter": 0.29726,
+      "neighbours": [
+        "c020s003",
+        "c000s008",
+        "c020s002",
+        "c020s009"
+      ]
+    },
+    {
+      "id": "c000s024",
+      "title": "Milestone: Joint Pipeline Decision — merged audit, gate chain fixed, aspect gate suspended (2026-09-05, later session)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        175,
+        182
+      ],
+      "tokens": 540,
+      "fingerprint_norm": [
+        0.61242,
+        0.05955,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.86838,
+      "shatter": 0.21667,
+      "neighbours": [
+        "c000s006",
+        "c000s026",
+        "c000s025",
+        "c021s000"
+      ]
+    },
+    {
+      "id": "c000s025",
+      "title": "Milestone: Twinmotion/UE5 render pipeline scoped — renderer decision made, UI-automation route rejected (2026-09-05, later session)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        183,
+        191
+      ],
+      "tokens": 802,
+      "fingerprint_norm": [
+        0.72157,
+        0.57084,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.97753,
+      "shatter": 0.2813,
+      "neighbours": [
+        "c000s026",
+        "c000s024",
+        "c000s006",
+        "c021s000"
+      ]
+    },
+    {
+      "id": "c000s026",
+      "title": "Milestone: Server MCP & environment audit (2026-09-05, later session)",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        192,
+        202
+      ],
+      "tokens": 686,
+      "fingerprint_norm": [
+        0.67845,
+        0.35216,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.93441,
+      "shatter": 0.25213,
+      "neighbours": [
+        "c000s025",
+        "c000s024",
+        "c000s006",
+        "c021s000"
+      ]
+    },
+    {
+      "id": "c000s027",
+      "title": "2026-09-17 (evening) — Candidate vertical: real estate drone marketing, Joe's own outreach",
+      "chapter": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "full_text_lines": [
+        203,
+        208
+      ],
+      "tokens": 224,
+      "fingerprint_norm": [
+        0.36995,
+        0.5616,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.62591,
+      "shatter": 0.24639,
+      "neighbours": [
+        "c006s000",
+        "c019s000",
+        "c018s000",
+        "c005s000"
+      ]
+    },
+    {
+      "id": "c001s000",
+      "title": "AI Drone Cinematography & 3D Video Pipeline — Master Blueprint",
+      "chapter": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
+      "source": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
+      "full_text_lines": [
+        211,
+        287
+      ],
+      "tokens": 1129,
+      "fingerprint_norm": [
+        0.81599,
+        0.33881,
+        0.56932,
+        0.0,
+        0.18665
+      ],
+      "heat": 1.57197,
+      "shatter": 0.55203,
+      "neighbours": [
+        "c023s000",
+        "c002s000",
+        "c015s000",
+        "c000s005"
+      ]
+    },
+    {
+      "id": "c002s000",
+      "title": "What is possible — deterministic aerial footage of a real location (2026-09-15)",
+      "chapter": "Capability Assessment — 2026-09-15.md",
+      "source": "Capability Assessment — 2026-09-15.md",
+      "full_text_lines": [
+        290,
+        334
+      ],
+      "tokens": 1544,
+      "fingerprint_norm": [
+        0.90244,
+        0.79261,
+        0.86135,
+        0.0,
+        0.0
+      ],
+      "heat": 1.76379,
+      "shatter": 0.82137,
+      "neighbours": [
+        "c010s000",
+        "c015s000",
+        "c013s000",
+        "c023s000"
+      ]
+    },
+    {
+      "id": "c003s000",
+      "title": "Capability Atlas — what the tools do, and what we can do with them (2026-10-07)",
+      "chapter": "Capability Atlas.md",
+      "source": "Capability Atlas.md",
+      "full_text_lines": [
+        337,
+        395
+      ],
+      "tokens": 1719,
+      "fingerprint_norm": [
+        0.9321,
+        0.85832,
+        0.86135,
+        0.40568,
+        0.85579
+      ],
+      "heat": 3.05493,
+      "shatter": 1.12831,
+      "neighbours": [
+        "c017s000",
+        "c016s000",
+        "c004s000",
+        "c014s000"
+      ]
+    },
+    {
+      "id": "c004s000",
+      "title": "NoDrone Crew — who does what, and how they talk (2026-10-08)",
+      "chapter": "Crew.md",
+      "source": "Crew.md",
+      "full_text_lines": [
+        398,
+        445
+      ],
+      "tokens": 762,
+      "fingerprint_norm": [
+        0.70745,
+        0.00308,
+        0.77838,
+        0.51191,
+        0.62005
+      ],
+      "heat": 2.6178,
+      "shatter": 0.87838,
+      "neighbours": [
+        "c017s000",
+        "c016s000",
+        "c003s000",
+        "c013s000"
+      ]
+    },
+    {
+      "id": "c005s000",
+      "title": "Decision: roof-hero move uses Field of View 40° vertical",
+      "chapter": "Decision - Field of View 40.md",
+      "source": "Decision - Field of View 40.md",
+      "full_text_lines": [
+        448,
+        465
+      ],
+      "tokens": 289,
+      "fingerprint_norm": [
+        0.44009,
+        0.56982,
+        0.0,
+        0.40568,
+        0.0
+      ],
+      "heat": 0.84577,
+      "shatter": 0.27647,
+      "neighbours": [
+        "c000s001",
+        "c008s000",
+        "c012s000",
+        "c022s000"
+      ]
+    },
+    {
+      "id": "c006s000",
+      "title": "Decision: the two top keys sit 3 m off the origin, not on it",
+      "chapter": "Decision - Top keys offset 3 m.md",
+      "source": "Decision - Top keys offset 3 m.md",
+      "full_text_lines": [
+        468,
+        481
+      ],
+      "tokens": 185,
+      "fingerprint_norm": [
+        0.31734,
+        0.31622,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.5733,
+      "shatter": 0.28146,
+      "neighbours": [
+        "c019s000",
+        "c000s027",
+        "c018s000",
+        "c005s000"
+      ]
+    },
+    {
+      "id": "c007s000",
+      "title": "Earth Ground Truth → Flyover (Claude skill + engine)",
+      "chapter": "Earth Ground Truth Skill.md",
+      "source": "Earth Ground Truth Skill.md",
+      "full_text_lines": [
+        484,
+        504
+      ],
+      "tokens": 397,
+      "fingerprint_norm": [
+        0.52758,
+        0.61602,
+        0.0,
+        0.51191,
+        0.0
+      ],
+      "heat": 1.0395,
+      "shatter": 0.34631,
+      "neighbours": [
+        "c022s000",
+        "c012s000",
+        "c008s000",
+        "c000s001"
+      ]
+    },
+    {
+      "id": "c008s000",
+      "title": "Earth Studio 3D Tracking Data (JSON, Local coordinate space) — decoded",
+      "chapter": "Earth Studio Export Format.md",
+      "source": "Earth Studio Export Format.md",
+      "full_text_lines": [
+        507,
+        526
+      ],
+      "tokens": 399,
+      "fingerprint_norm": [
+        0.52897,
+        0.67762,
+        0.0,
+        0.40568,
+        0.0
+      ],
+      "heat": 0.93465,
+      "shatter": 0.26496,
+      "neighbours": [
+        "c000s001",
+        "c005s000",
+        "c021s000",
+        "c007s000"
+      ]
+    },
+    {
+      "id": "c009s000",
+      "title": "Google Earth Studio — verified findings (2–3 Sep 2026)",
+      "chapter": "Earth Studio Findings.md",
+      "source": "Earth Studio Findings.md",
+      "full_text_lines": [
+        529,
+        555
+      ],
+      "tokens": 530,
+      "fingerprint_norm": [
+        0.60727,
+        0.61396,
+        0.0,
+        0.66164,
+        0.0
+      ],
+      "heat": 1.26891,
+      "shatter": 0.4858,
+      "neighbours": [
+        "c000s012",
+        "c007s000",
+        "c022s000",
+        "c012s000"
+      ]
+    },
+    {
+      "id": "c010s000",
+      "title": "Fracture 1 — Gate checked properties, not content",
+      "chapter": "Failure Records — 2026-09-06.md",
+      "source": "Failure Records — 2026-09-06.md",
+      "full_text_lines": [
+        558,
+        589
+      ],
+      "tokens": 1545,
+      "fingerprint_norm": [
+        0.90262,
+        0.99692,
+        0.86135,
+        0.25596,
+        0.0
+      ],
+      "heat": 2.01993,
+      "shatter": 0.79076,
+      "neighbours": [
+        "c015s000",
+        "c013s000",
+        "c023s000",
+        "c002s000"
+      ]
+    },
+    {
+      "id": "c011s000",
+      "title": "Flyover Pipeline",
+      "chapter": "Flyover Pipeline.md",
+      "source": "Flyover Pipeline.md",
+      "full_text_lines": [
+        592,
+        631
+      ],
+      "tokens": 612,
+      "fingerprint_norm": [
+        0.64695,
+        0.3809,
+        0.6826,
+        1.0,
+        0.0
+      ],
+      "heat": 2.32956,
+      "shatter": 0.93894,
+      "neighbours": [
+        "c024s000",
+        "c000s012",
+        "c009s000",
+        "c013s000"
+      ]
+    },
+    {
+      "id": "c012s000",
+      "title": "Flyover SaaS backend (designed in NotebookLM)",
+      "chapter": "Flyover SaaS Backend.md",
+      "source": "Flyover SaaS Backend.md",
+      "full_text_lines": [
+        634,
+        655
+      ],
+      "tokens": 306,
+      "fingerprint_norm": [
+        0.45583,
+        0.29261,
+        0.0,
+        0.51191,
+        0.0
+      ],
+      "heat": 0.96775,
+      "shatter": 0.35203,
+      "neighbours": [
+        "c022s000",
+        "c000s002",
+        "c007s000",
+        "c000s001"
+      ]
+    },
+    {
+      "id": "c013s000",
+      "title": "Flyover / NoDrone — inventory (2026-10-07, swept live on the 5820)",
+      "chapter": "Inventory — 2026-10-07.md",
+      "source": "Inventory — 2026-10-07.md",
+      "full_text_lines": [
+        658,
+        700
+      ],
+      "tokens": 904,
+      "fingerprint_norm": [
+        0.75462,
+        0.35626,
+        0.93453,
+        0.25596,
+        0.0
+      ],
+      "heat": 1.94511,
+      "shatter": 0.79976,
+      "neighbours": [
+        "c015s000",
+        "c010s000",
+        "c002s000",
+        "c023s000"
+      ]
+    },
+    {
+      "id": "c014s000",
+      "title": "Flyover System — Generated Inventory & Status Quo Audit",
+      "chapter": "INVENTORY_AND_STATUS_QUO.md",
+      "source": "INVENTORY_AND_STATUS_QUO.md",
+      "full_text_lines": [
+        703,
+        785
+      ],
+      "tokens": 1392,
+      "fingerprint_norm": [
+        0.87382,
+        0.22382,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "heat": 2.87382,
+      "shatter": 1.30371,
+      "neighbours": [
+        "c003s000",
+        "c017s000",
+        "c016s000",
+        "c004s000"
+      ]
+    },
+    {
+      "id": "c015s000",
+      "title": "What it is",
+      "chapter": "Joint Pipeline Decision.md",
+      "source": "Joint Pipeline Decision.md",
+      "full_text_lines": [
+        788,
+        839
+      ],
+      "tokens": 1302,
+      "fingerprint_norm": [
+        0.85536,
+        0.9538,
+        0.86135,
+        0.25596,
+        0.0
+      ],
+      "heat": 1.97267,
+      "shatter": 0.76897,
+      "neighbours": [
+        "c010s000",
+        "c013s000",
+        "c023s000",
+        "c002s000"
+      ]
+    },
+    {
+      "id": "c016s000",
+      "title": "Manager — Start Here (NoDrone)",
+      "chapter": "Manager — Start Here.md",
+      "source": "Manager — Start Here.md",
+      "full_text_lines": [
+        842,
+        904
+      ],
+      "tokens": 1639,
+      "fingerprint_norm": [
+        0.91894,
+        0.00924,
+        0.77838,
+        0.51191,
+        0.77833
+      ],
+      "heat": 2.98756,
+      "shatter": 1.04462,
+      "neighbours": [
+        "c017s000",
+        "c003s000",
+        "c004s000",
+        "c014s000"
+      ]
+    },
+    {
+      "id": "c017s000",
+      "title": "ONSC Clubhouse — Old North State Club, Uwharrie Point, Badin Lake NC",
+      "chapter": "ONSC Clubhouse.md",
+      "source": "ONSC Clubhouse.md",
+      "full_text_lines": [
+        907,
+        962
+      ],
+      "tokens": 1225,
+      "fingerprint_norm": [
+        0.83853,
+        0.20226,
+        0.77838,
+        0.40568,
+        0.81984
+      ],
+      "heat": 2.84243,
+      "shatter": 1.02141,
+      "neighbours": [
+        "c003s000",
+        "c016s000",
+        "c004s000",
+        "c014s000"
+      ]
+    },
+    {
+      "id": "c018s000",
+      "title": "Open: 22 s stylised vs 44 s real-drone pace",
+      "chapter": "Open - Pacing 22 s vs 44 s.md",
+      "source": "Open - Pacing 22 s vs 44 s.md",
+      "full_text_lines": [
+        965,
+        977
+      ],
+      "tokens": 127,
+      "fingerprint_norm": [
+        0.21405,
+        0.43224,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.47001,
+      "shatter": 0.36285,
+      "neighbours": [
+        "c019s000",
+        "c006s000",
+        "c020s001",
+        "c000s027"
+      ]
+    },
+    {
+      "id": "c019s000",
+      "title": "Open: which renderer route first",
+      "chapter": "Open - Renderer route.md",
+      "source": "Open - Renderer route.md",
+      "full_text_lines": [
+        980,
+        995
+      ],
+      "tokens": 181,
+      "fingerprint_norm": [
+        0.31133,
+        0.70739,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.56729,
+      "shatter": 0.28581,
+      "neighbours": [
+        "c006s000",
+        "c000s027",
+        "c018s000",
+        "c005s000"
+      ]
+    },
+    {
+      "id": "c020s001",
+      "title": "Playbook — Generated Aerials (lessons that let the next agent start ahead)",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        999,
+        1002
+      ],
+      "tokens": 82,
+      "fingerprint_norm": [
+        0.09433,
+        0.2269,
+        0.0,
+        0.25596,
+        0.0
+      ],
+      "heat": 0.35029,
+      "shatter": 0.46814,
+      "neighbours": [
+        "c018s000",
+        "c019s000",
+        "c006s000",
+        "c000s013"
+      ]
+    },
+    {
+      "id": "c020s002",
+      "title": "The pipeline that works (local, 8 GB GPU, no paid API)",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1003,
+        1010
+      ],
+      "tokens": 345,
+      "fingerprint_norm": [
+        0.48889,
+        0.35524,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.48889,
+      "shatter": 0.29791,
+      "neighbours": [
+        "c000s008",
+        "c000s010",
+        "c020s003",
+        "c000s003"
+      ]
+    },
+    {
+      "id": "c020s003",
+      "title": "Rules (each one cost us a run)",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1011,
+        1022
+      ],
+      "tokens": 387,
+      "fingerprint_norm": [
+        0.52055,
+        0.74025,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.52055,
+      "shatter": 0.29633,
+      "neighbours": [
+        "c000s008",
+        "c000s023",
+        "c020s002",
+        "c000s010"
+      ]
+    },
+    {
+      "id": "c020s004",
+      "title": "Heights: where they come from (Dubai test, 3 km radius, 11,760 buildings)",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1023,
+        1040
+      ],
+      "tokens": 380,
+      "fingerprint_norm": [
+        0.51552,
+        0.79261,
+        0.0,
+        0.0,
+        0.55996
+      ],
+      "heat": 1.07548,
+      "shatter": 0.55667,
+      "neighbours": [
+        "c020s003",
+        "c000s008",
+        "c020s002",
+        "c000s023"
+      ]
+    },
+    {
+      "id": "c020s005",
+      "title": "Taste (the Commander's calls, all still binding)",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1041,
+        1048
+      ],
+      "tokens": 141,
+      "fingerprint_norm": [
+        0.24274,
+        0.15195,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.24274,
+      "shatter": 0.40551,
+      "neighbours": [
+        "c000s021",
+        "c000s020",
+        "c000s015",
+        "c000s017"
+      ]
+    },
+    {
+      "id": "c020s006",
+      "title": "Renders (for reference)",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1049,
+        1054
+      ],
+      "tokens": 58,
+      "fingerprint_norm": [
+        0.0,
+        0.56468,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.0,
+      "shatter": 0.59813,
+      "neighbours": [
+        "c000s014",
+        "c000s013",
+        "c000s004",
+        "c000s015"
+      ]
+    },
+    {
+      "id": "c020s007",
+      "title": "Scout lessons",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1055,
+        1077
+      ],
+      "tokens": 2198,
+      "fingerprint_norm": [
+        1.0,
+        0.55133,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 1.0,
+      "shatter": 0.56447,
+      "neighbours": [
+        "c020s008",
+        "c000s025",
+        "c000s007",
+        "c020s009"
+      ]
+    },
+    {
+      "id": "c020s008",
+      "title": "Verifier lessons",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1078,
+        1082
+      ],
+      "tokens": 560,
+      "fingerprint_norm": [
+        0.62246,
+        0.95688,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.62246,
+      "shatter": 0.31368,
+      "neighbours": [
+        "c000s007",
+        "c020s009",
+        "c000s023",
+        "c020s003"
+      ]
+    },
+    {
+      "id": "c020s009",
+      "title": "Shot Maker lessons",
+      "chapter": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "full_text_lines": [
+        1083,
+        1091
+      ],
+      "tokens": 523,
+      "fingerprint_norm": [
+        0.6036,
+        0.73511,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat": 0.6036,
+      "shatter": 0.30801,
+      "neighbours": [
+        "c000s007",
+        "c020s008",
+        "c000s023",
+        "c020s003"
+      ]
+    },
+    {
+      "id": "c021s000",
+      "title": "Product: the prospect's roof, in any shingle",
+      "chapter": "Product - Shingle Visualization.md",
+      "source": "Product - Shingle Visualization.md",
+      "full_text_lines": [
+        1094,
+        1117
+      ],
+      "tokens": 558,
+      "fingerprint_norm": [
+        0.62147,
+        0.87885,
+        0.0,
+        0.40568,
+        0.0
+      ],
+      "heat": 1.02715,
+      "shatter": 0.28373,
+      "neighbours": [
+        "c008s000",
+        "c007s000",
+        "c000s024",
+        "c000s001"
+      ]
+    },
+    {
+      "id": "c022s000",
+      "title": "Renderer hand-off (next stage)",
+      "chapter": "Renderer Hand-off.md",
+      "source": "Renderer Hand-off.md",
+      "full_text_lines": [
+        1120,
+        1140
+      ],
+      "tokens": 312,
+      "fingerprint_norm": [
+        0.46118,
+        0.53593,
+        0.0,
+        0.51191,
+        0.0
+      ],
+      "heat": 0.9731,
+      "shatter": 0.3511,
+      "neighbours": [
+        "c012s000",
+        "c007s000",
+        "c000s002",
+        "c000s001"
+      ]
+    },
+    {
+      "id": "c023s000",
+      "title": "MCP reality check — nothing Unreal/Blender is live from here",
+      "chapter": "Server MCP Environment Audit.md",
+      "source": "Server MCP Environment Audit.md",
+      "full_text_lines": [
+        1143,
+        1186
+      ],
+      "tokens": 1689,
+      "fingerprint_norm": [
+        0.92723,
+        0.0,
+        0.6826,
+        0.25596,
+        0.0
+      ],
+      "heat": 1.8658,
+      "shatter": 0.6568,
+      "neighbours": [
+        "c010s000",
+        "c015s000",
+        "c013s000",
+        "c002s000"
+      ]
+    },
+    {
+      "id": "c024s000",
+      "title": "What it is",
+      "chapter": "Twinmotion Agent Skill Plan (Antigravity).md",
+      "source": "Twinmotion Agent Skill Plan (Antigravity).md",
+      "full_text_lines": [
+        1189,
+        1215
+      ],
+      "tokens": 912,
+      "fingerprint_norm": [
+        0.75706,
+        0.71971,
+        0.43067,
+        0.51191,
+        0.0
+      ],
+      "heat": 1.69964,
+      "shatter": 0.45924,
+      "neighbours": [
+        "c023s000",
+        "c000s011",
+        "c021s000",
+        "c009s000"
+      ]
+    }
+  ]
+}

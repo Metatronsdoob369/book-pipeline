@@ -1,0 +1,27 @@
+{
+  "schema": "book_pipeline.skill_handoff.v1",
+  "created": "2026-10-12T11:37:04-07:00",
+  "label": "flyover",
+  "slug": "flyover",
+  "mode": "full-conversion",
+  "converter": {
+    "root": "/home/themachinist/.agents/skills/book-to-skill",
+    "commit": "a24e62f4d8caf2ee433f6e48d9073800f56f906e",
+    "instructions": "/home/themachinist/.agents/skills/book-to-skill/SKILL.md"
+  },
+  "artifact": "/home/themachinist/bench/book-pipeline/library/new/artifacts/flyover.auto.artifact.json",
+  "extract": {
+    "full_text": "/home/themachinist/bench/book-pipeline/library/new/skill/flyover/_extract/full_text.txt",
+    "metadata": "/home/themachinist/bench/book-pipeline/library/new/skill/flyover/_extract/metadata.json",
+    "tokens": 26081,
+    "sources": 25
+  },
+  "skill_dir": "/home/themachinist/bench/book-pipeline/library/new/skill/flyover",
+  "install_to": "/home/themachinist/.agents/skills/flyover",
+  "agent_next": [
+    "Read the artifact first; pull only the line ranges you need from extract.full_text.",
+    "Follow converter SKILL.md Steps 3-9 (Mode 4 Update/Fold-in if mode says so) writing into skill_dir.",
+    "Extract structure, not summaries. Name only frameworks the text names; cite chapter + lines.",
+    "Then: python3 library/run_pipeline.py install --label flyover"
+  ]
+}

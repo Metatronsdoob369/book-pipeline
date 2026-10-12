@@ -1,0 +1,1868 @@
+{
+  "schema": "book_pipeline.prechew.v1",
+  "label": "flyover",
+  "lane": "new",
+  "created": "2026-10-12T11:37:04-07:00",
+  "source": {
+    "kind": "multi",
+    "root": "/home/themachinist/Hive/10-Projects/flyover",
+    "sha256": "911c3a4b55f7f6da7df8a9c877ba30234354cd4cc1a276e354230d1ecad25e1f",
+    "files": [
+      {
+        "path": "_flyover-Hub.md",
+        "sha256": "9d4bbc70606c3645a45b5fd524e33f01ed0b0d6d4462a1884b2a9487a287049f",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 6721
+      },
+      {
+        "path": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
+        "sha256": "24c273e9410fd38953532e19bd0a552ab32553c24f3265f7a7a508f6013e6602",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 634
+      },
+      {
+        "path": "Capability Assessment — 2026-09-15.md",
+        "sha256": "0014f3f24ea20b864f147f1e948ca58041ec86ab48e39ca0864be729491146d6",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 1144
+      },
+      {
+        "path": "Capability Atlas.md",
+        "sha256": "b1a01222a4a698fc0e938b7de7bd784fcc13a36d51de8f7f773f5fd8ffc0a1fd",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 1357
+      },
+      {
+        "path": "Crew.md",
+        "sha256": "d1618a88eac3f99577d08eb001ff7df95aee51ac620c4c6f36e3227e9ae6db7b",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 636
+      },
+      {
+        "path": "Decision - Field of View 40.md",
+        "sha256": "cce4c37173cfcbaa036402a16d443d333b61b6d9b3fb130b4b5a31b05439d96d",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 238
+      },
+      {
+        "path": "Decision - Top keys offset 3 m.md",
+        "sha256": "08e78c0b2366d6ad4d456e58c9cfa02ee2d719e502b0e8096f8ebed18e83cd0e",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 153
+      },
+      {
+        "path": "Earth Ground Truth Skill.md",
+        "sha256": "8a4d33e3c125de299e00056a86f87fcbd91400d119cc75c4d2f42afbc88180db",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 289
+      },
+      {
+        "path": "Earth Studio Export Format.md",
+        "sha256": "85a6917bae4688a46527428c7bdeea5f01d75f86ade1c28e9815d27a6778662e",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 310
+      },
+      {
+        "path": "Earth Studio Findings.md",
+        "sha256": "a8e479f488111fe8a545d1fcf40ddd8c53e1d288ed47afa37b4b3199f9a7b3a2",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 452
+      },
+      {
+        "path": "Failure Records — 2026-09-06.md",
+        "sha256": "3092cad15e3e43195bbb972dab87e2f29ecee25415afd6662be8f98db3e29338",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 1185
+      },
+      {
+        "path": "Flyover Pipeline.md",
+        "sha256": "dfd5c92e1d9642df09f28cbd63a3f8a55d6b08f2d693cfaebebbd84dc3949dcb",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 474
+      },
+      {
+        "path": "Flyover SaaS Backend.md",
+        "sha256": "494dc7d86bb0d7af2feab82718c5ba6926d2bc756ba2467cb2628711a7ad571b",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 205
+      },
+      {
+        "path": "Inventory — 2026-10-07.md",
+        "sha256": "f928cf5618d496d513a3a0640e0c4638820c73f63c7530b5166e0cdd43f07cf5",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 630
+      },
+      {
+        "path": "INVENTORY_AND_STATUS_QUO.md",
+        "sha256": "db6614f0784a7c71f9fba3d3e25274bc201a51cd1ace6d7b80ca8741422bc049",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 996
+      },
+      {
+        "path": "Joint Pipeline Decision.md",
+        "sha256": "d86ac6ceb7f4b4d4c2dec5eb20747b4a66392bcc5dcf629b2ec81bc6fe45a2e5",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 989
+      },
+      {
+        "path": "Manager — Start Here.md",
+        "sha256": "b86c925200786e59f5b1f5dde8a5743c07a3201490292800b2a5947f9367d072",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 1336
+      },
+      {
+        "path": "ONSC Clubhouse.md",
+        "sha256": "53fa15d2862be6e9e73174a28eb77d4b42bb738e1d293b7e5e39a6913a65a7f6",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 1126
+      },
+      {
+        "path": "Open - Pacing 22 s vs 44 s.md",
+        "sha256": "9813cbf19bd2eef72cc3d26e27bde1626f2c9bbba5307a09a13dfa17253c3b25",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 105
+      },
+      {
+        "path": "Open - Renderer route.md",
+        "sha256": "5439b145fb9b4c058bee580610fa4a50e342ac9721d48a7c07559c35e4c06f2b",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 122
+      },
+      {
+        "path": "Playbook — Generated Aerials.md",
+        "sha256": "607a8ad9b9bba2103b44ea20f60f05efd5f639a12ebdc6c756fc0035418c3b43",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 4032
+      },
+      {
+        "path": "Product - Shingle Visualization.md",
+        "sha256": "1d3cfa1280b740fd225316bd93eae06c9eb7ba0262a9af4241ede6e3c1c00aa5",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 465
+      },
+      {
+        "path": "Renderer Hand-off.md",
+        "sha256": "c1ddf4eabc29f05fe02d22d3b9c7251a9b4d560ed26fdd244d27aca8d8f9136d",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 232
+      },
+      {
+        "path": "Server MCP Environment Audit.md",
+        "sha256": "ff0981e3fd76f6bea433e9447791422a826eda4720f5ee4159556978a77d5396",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 1238
+      },
+      {
+        "path": "Twinmotion Agent Skill Plan (Antigravity).md",
+        "sha256": "f976b6897667e13c9680e49cf1b55ceb6a8bbc08188830a1d60e898a4bee4a0f",
+        "format": "md",
+        "method": "plain-text",
+        "tokens": 641
+      }
+    ]
+  },
+  "text": {
+    "path": "/home/themachinist/bench/book-pipeline/library/new/logs/run-flyover/extract/full_text.txt",
+    "sha256": "e57696bcf151668d6da2339a17cd6d56b06ce496f5bb529f7ca35ba1888465ca"
+  },
+  "totals": {
+    "tokens": 33129,
+    "words": 19289,
+    "chapters_total": 25,
+    "sections_total": 127,
+    "wikilinks_total": 73,
+    "files_total": 25
+  },
+  "terms": [
+    "flyover",
+    "earth",
+    "roof",
+    "projects",
+    "camera",
+    "studio",
+    "engine",
+    "frame",
+    "real",
+    "path",
+    "blender",
+    "json",
+    "google",
+    "renders",
+    "render",
+    "decision",
+    "photos",
+    "session",
+    "twinmotion",
+    "pipeline",
+    "geometry",
+    "verified",
+    "joe",
+    "claude",
+    "frames"
+  ],
+  "chapters": [
+    {
+      "title": "_flyover-Hub.md",
+      "source": "_flyover-Hub.md",
+      "source_sha256": "9d4bbc70606c3645a45b5fd524e33f01ed0b0d6d4462a1884b2a9487a287049f",
+      "line_start": 1,
+      "line_end": 205,
+      "full_text_line_offset": 3,
+      "tokens": 9256,
+      "words": 5041,
+      "sha256": "263f66b117b69fe345c94981bf5d1b447ad61ea30a439f4fd963ba7236161295",
+      "lead": "→ Anyone picking up NoDrone work (human or agent): read [[Manager — Start Here]] first. It has the live task board.**",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Flyover — CURRENT STATE",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-10-07, evening) — FIRST GEOMETRY-LOCKED PHOTOREAL CLIP (Route A)",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-10-07) — fresh site: Bodie Island Light Station, stages 1–4a done",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-09-18) — sidecar GS in the same UE project, not the product",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-09-15, 5820)",
+          "line": 34
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-09-02)",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-09-15) — capability assessment; 3D Tiles licensing flag",
+          "line": 47
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-09-08) — mesh on the pad, Python unblocked, no clip yet",
+          "line": 53
+        },
+        {
+          "level": 3,
+          "title": "Gotchas (cost this session)",
+          "line": 64
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-09-07) — v1 defined, licensing settled (superseded live-blocker)",
+          "line": 71
+        },
+        {
+          "level": 2,
+          "title": "Where we are (2026-09-05)",
+          "line": 79
+        },
+        {
+          "level": 2,
+          "title": "Where we were (2026-09-02)",
+          "line": 86
+        },
+        {
+          "level": 2,
+          "title": "Open decisions (Joe)",
+          "line": 98
+        },
+        {
+          "level": 2,
+          "title": "Missing inputs",
+          "line": 106
+        },
+        {
+          "level": 2,
+          "title": "Hard constraints",
+          "line": 112
+        },
+        {
+          "level": 2,
+          "title": "Adjacent assets (link, don't copy)",
+          "line": 117
+        },
+        {
+          "level": 2,
+          "title": "Notes in this folder (from the 2026-09-02/03 browser session)",
+          "line": 124
+        },
+        {
+          "level": 3,
+          "title": "Milestone: 3D AI Reconstructed Asset Extraction (2026-09-04)",
+          "line": 128
+        },
+        {
+          "level": 3,
+          "title": "Milestone: 661-Frame Trajectory Integration & Multi-Angle Flight Renders (2026-09-04)",
+          "line": 136
+        },
+        {
+          "level": 3,
+          "title": "Milestone: Mathematical Gate Correction & Oblique IoU Resolution (2026-09-04/05)",
+          "line": 143
+        },
+        {
+          "level": 3,
+          "title": "Milestone: InfiniSplat 3DGS Radiance Field & Drone Sweep (2026-09-05)",
+          "line": 148
+        },
+        {
+          "level": 3,
+          "title": "Milestone: Master 360° Composite Flight Across All 661 Frames (2026-09-05)",
+          "line": 154
+        },
+        {
+          "level": 3,
+          "title": "Milestone: Tooling Integration — Tripo 3D & Meshy MCP (2026-09-05)",
+          "line": 159
+        },
+        {
+          "level": 3,
+          "title": "Milestone: Dell Precision 5820 GPU Bench Commissioning & First Render (2026-09-05)",
+          "line": 164
+        },
+        {
+          "level": 3,
+          "title": "Milestone: Joint Pipeline Decision — merged audit, gate chain fixed, aspect gate suspended (2026-09-05, later session)",
+          "line": 172
+        },
+        {
+          "level": 3,
+          "title": "Milestone: Twinmotion/UE5 render pipeline scoped — renderer decision made, UI-automation route rejected (2026-09-05, later session)",
+          "line": 180
+        },
+        {
+          "level": 3,
+          "title": "Milestone: Server MCP & environment audit (2026-09-05, later session)",
+          "line": 189
+        },
+        {
+          "level": 2,
+          "title": "2026-09-17 (evening) — Candidate vertical: real estate drone marketing, Joe's own outreach",
+          "line": 200
+        }
+      ],
+      "wikilinks": [
+        "Capability Assessment — 2026-09-15",
+        "Capability Atlas",
+        "Crew",
+        "Decision - Field of View 40",
+        "Decision - Top keys offset 3 m",
+        "Earth Ground Truth Skill",
+        "Earth Studio Export Format",
+        "Earth Studio Findings",
+        "Failure Records — 2026-09-06",
+        "Flyover Pipeline",
+        "Flyover SaaS Backend",
+        "Joint Pipeline Decision",
+        "Manager — Start Here",
+        "ONSC Clubhouse",
+        "Open - Pacing 22 s vs 44 s",
+        "Open - Renderer route",
+        "Playbook — Generated Aerials",
+        "Product - Shingle Visualization",
+        "Renderer Hand-off",
+        "Server MCP Environment Audit",
+        "Twinmotion Agent Skill Plan (Antigravity)",
+        "_cosine-brand-Hub"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-01",
+        "last": "2026-10-08",
+        "count": 14
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "flyover",
+        "session",
+        "joe",
+        "earth",
+        "blender",
+        "mcp",
+        "projects",
+        "google",
+        "studio",
+        "mesh",
+        "twinmotion",
+        "pipeline"
+      ]
+    },
+    {
+      "title": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
+      "source": "AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
+      "source_sha256": "24c273e9410fd38953532e19bd0a552ab32553c24f3265f7a7a508f6013e6602",
+      "line_start": 1,
+      "line_end": 77,
+      "full_text_line_offset": 210,
+      "tokens": 1109,
+      "words": 476,
+      "sha256": "945b0120b209ed2f8b85224c0ebf87b1570189a1a868ad12a1238077d8dcf5d9",
+      "lead": "Status:** ACTIVE RE-ORIENTATION",
+      "headings": [
+        {
+          "level": 1,
+          "title": "AI Drone Cinematography & 3D Video Pipeline — Master Blueprint",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "1. What Went Wrong Over the Last 36 Hours (Forensic Autopsy)",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "2. The Real Architecture: Multi-Tier AI Drone Pipeline",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "3. Repositories & Tooling Integration",
+          "line": 63
+        }
+      ],
+      "wikilinks": [],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 1,
+      "table_rows": 0,
+      "terms": [
+        "video",
+        "google",
+        "drone",
+        "pipeline",
+        "cinematic",
+        "trajectory",
+        "camera",
+        "real",
+        "client",
+        "photos",
+        "metatronsdoob369",
+        "earth"
+      ]
+    },
+    {
+      "title": "Capability Assessment — 2026-09-15.md",
+      "source": "Capability Assessment — 2026-09-15.md",
+      "source_sha256": "0014f3f24ea20b864f147f1e948ca58041ec86ab48e39ca0864be729491146d6",
+      "line_start": 1,
+      "line_end": 45,
+      "full_text_line_offset": 289,
+      "tokens": 1524,
+      "words": 858,
+      "sha256": "7aebccb52a30a8fc1055db273de48d43473b108f65ca904fb33a3383ffdd9c31",
+      "lead": "title: Capability Assessment — 2026-09-15",
+      "headings": [
+        {
+          "level": 1,
+          "title": "What is possible — deterministic aerial footage of a real location (2026-09-15)",
+          "line": 9
+        },
+        {
+          "level": 2,
+          "title": "1. Deterministic 6-DoF camera + geometry-locked motion — SOLVED, already owned",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "2. \"Any location on earth\" at photoreal quality — NOT POSSIBLE today",
+          "line": 18
+        },
+        {
+          "level": 2,
+          "title": "3. \"Little variation in accuracy\" — POSSIBLE, only under one architecture",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "4. Licensing — the real wall, and a blind spot in our own docs",
+          "line": 30
+        },
+        {
+          "level": 2,
+          "title": "Not reachable this session",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "One-line verdict",
+          "line": 41
+        }
+      ],
+      "wikilinks": [],
+      "links": [],
+      "dates": {
+        "first": "2026-09-01",
+        "last": "2026-09-15",
+        "count": 3
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "verified",
+        "camera",
+        "geometry",
+        "video",
+        "google",
+        "depth",
+        "web",
+        "fetch",
+        "today",
+        "world",
+        "licensing",
+        "gen3c"
+      ]
+    },
+    {
+      "title": "Capability Atlas.md",
+      "source": "Capability Atlas.md",
+      "source_sha256": "b1a01222a4a698fc0e938b7de7bd784fcc13a36d51de8f7f773f5fd8ffc0a1fd",
+      "line_start": 1,
+      "line_end": 59,
+      "full_text_line_offset": 336,
+      "tokens": 1699,
+      "words": 1018,
+      "sha256": "773051a74bda97ebd2b369bcc81c8ed5fa5bc6d3b4854d540948120f32aa9299",
+      "lead": "Ground-zero map, written after the Commander's call: stop using tools by their front door; map what each one *unlocks* in combination, and keep several routes to the shot depending on the data a site has. Sources: three sweeps on 2026-10-07",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Capability Atlas — what the tools do, and what we can do with them (2026-10-07)",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "Primitives",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Blocked or demoted (with reason)",
+          "line": 29
+        },
+        {
+          "level": 2,
+          "title": "Routes to the shot, by data available",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": "The truth gate (what makes any route sellable)",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "Status (2026-10-07)",
+          "line": 49
+        },
+        {
+          "level": 2,
+          "title": "Status (2026-10-08)",
+          "line": 54
+        }
+      ],
+      "wikilinks": [
+        "Inventory — 2026-10-07",
+        "Playbook — Generated Aerials"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-28",
+        "last": "2026-10-08",
+        "count": 3
+      },
+      "code_blocks": 0,
+      "table_rows": 23,
+      "terms": [
+        "measured",
+        "engine",
+        "depth",
+        "photos",
+        "frame",
+        "video",
+        "lidar",
+        "route",
+        "site",
+        "path",
+        "photo",
+        "render"
+      ]
+    },
+    {
+      "title": "Crew.md",
+      "source": "Crew.md",
+      "source_sha256": "d1618a88eac3f99577d08eb001ff7df95aee51ac620c4c6f36e3227e9ae6db7b",
+      "line_start": 1,
+      "line_end": 48,
+      "full_text_line_offset": 397,
+      "tokens": 742,
+      "words": 477,
+      "sha256": "fc3f21918b5a501dccd5ba6897a60be2238d8ce76a34f98dd3a03caeea2bb6f1",
+      "lead": "The Commander's call (2026-10-08): promote the main Claude session to **manager** and give it specialists, so the manager keeps its head out of the tools and can pivot. The specialization is written down here, not assumed.",
+      "headings": [
+        {
+          "level": 1,
+          "title": "NoDrone Crew — who does what, and how they talk (2026-10-08)",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "Roles",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Task card (manager → specialist)",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "Result card (specialist → manager)",
+          "line": 29
+        },
+        {
+          "level": 2,
+          "title": "Flow",
+          "line": 40
+        },
+        {
+          "level": 2,
+          "title": "Log",
+          "line": 43
+        }
+      ],
+      "wikilinks": [
+        "Capability Atlas",
+        "Manager — Start Here",
+        "Playbook — Generated Aerials"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-10-08",
+        "last": "2026-10-08",
+        "count": 1
+      },
+      "code_blocks": 2,
+      "table_rows": 7,
+      "terms": [
+        "manager",
+        "claude",
+        "verifier",
+        "task",
+        "scout",
+        "gpu",
+        "commander",
+        "agents",
+        "result",
+        "role",
+        "numbers",
+        "shot"
+      ]
+    },
+    {
+      "title": "Decision - Field of View 40.md",
+      "source": "Decision - Field of View 40.md",
+      "source_sha256": "cce4c37173cfcbaa036402a16d443d333b61b6d9b3fb130b4b5a31b05439d96d",
+      "line_start": 1,
+      "line_end": 18,
+      "full_text_line_offset": 447,
+      "tokens": 269,
+      "words": 179,
+      "sha256": "5497784d2018263af7722e308f69c44db92ce6183b1f41f4dfbfd4e30a77855c",
+      "lead": "title: Decision - Field of View 40",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Decision: roof-hero move uses Field of View 40° vertical",
+          "line": 9
+        }
+      ],
+      "wikilinks": [
+        "Earth Studio Findings",
+        "ONSC Clubhouse"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "decision",
+        "roof",
+        "frame",
+        "hold",
+        "field",
+        "view",
+        "vertical",
+        "earth",
+        "studio",
+        "horizontal",
+        "onsc",
+        "clubhouse"
+      ]
+    },
+    {
+      "title": "Decision - Top keys offset 3 m.md",
+      "source": "Decision - Top keys offset 3 m.md",
+      "source_sha256": "08e78c0b2366d6ad4d456e58c9cfa02ee2d719e502b0e8096f8ebed18e83cd0e",
+      "line_start": 1,
+      "line_end": 14,
+      "full_text_line_offset": 467,
+      "tokens": 165,
+      "words": 115,
+      "sha256": "8ea93d8e2227f30ccebb96f930e3da45a2c10067214afc082e55d34f4423e691",
+      "lead": "title: Decision - Top keys offset 3 m",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Decision: the two top keys sit 3 m off the origin, not on it",
+          "line": 9
+        }
+      ],
+      "wikilinks": [
+        "Earth Ground Truth Skill"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-02",
+        "last": "2026-09-02",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "decision",
+        "top",
+        "keys",
+        "earth",
+        "camera",
+        "exactly",
+        "keeps",
+        "title",
+        "offset",
+        "type",
+        "status",
+        "accepted"
+      ]
+    },
+    {
+      "title": "Earth Ground Truth Skill.md",
+      "source": "Earth Ground Truth Skill.md",
+      "source_sha256": "8a4d33e3c125de299e00056a86f87fcbd91400d119cc75c4d2f42afbc88180db",
+      "line_start": 1,
+      "line_end": 21,
+      "full_text_line_offset": 483,
+      "tokens": 377,
+      "words": 217,
+      "sha256": "186311a7103c3261577ee4097f9b50a14d180fa1c9bece281c77b8a2c5f76b0f",
+      "lead": "title: Earth Ground Truth Skill",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Earth Ground Truth → Flyover (Claude skill + engine)",
+          "line": 9
+        }
+      ],
+      "wikilinks": [
+        "Earth Studio Export Format",
+        "Earth Studio Findings",
+        "Flyover Pipeline"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "earth",
+        "json",
+        "skill",
+        "move",
+        "flyover",
+        "claude",
+        "site",
+        "anchors",
+        "csv",
+        "studio",
+        "ground",
+        "engine"
+      ]
+    },
+    {
+      "title": "Earth Studio Export Format.md",
+      "source": "Earth Studio Export Format.md",
+      "source_sha256": "85a6917bae4688a46527428c7bdeea5f01d75f86ade1c28e9815d27a6778662e",
+      "line_start": 1,
+      "line_end": 20,
+      "full_text_line_offset": 506,
+      "tokens": 379,
+      "words": 233,
+      "sha256": "71240ec86ad18a3695211490323ef363454e67a86fd35c3386751d875928b52e",
+      "lead": "title: Earth Studio Export Format",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Earth Studio 3D Tracking Data (JSON, Local coordinate space) — decoded",
+          "line": 8
+        }
+      ],
+      "wikilinks": [
+        "Earth Ground Truth Skill",
+        "ONSC Clubhouse"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "sin",
+        "cos",
+        "camera",
+        "cameraframes",
+        "earth",
+        "json",
+        "enu",
+        "fov",
+        "studio",
+        "export",
+        "verified",
+        "local"
+      ]
+    },
+    {
+      "title": "Earth Studio Findings.md",
+      "source": "Earth Studio Findings.md",
+      "source_sha256": "a8e479f488111fe8a545d1fcf40ddd8c53e1d288ed47afa37b4b3199f9a7b3a2",
+      "line_start": 1,
+      "line_end": 27,
+      "full_text_line_offset": 528,
+      "tokens": 510,
+      "words": 339,
+      "sha256": "58f229656ad04de0f1a85ab73679cc135be16ccaace06a92c7f88fa1299ddeed",
+      "lead": "title: Earth Studio Findings",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Google Earth Studio — verified findings (2–3 Sep 2026)",
+          "line": 8
+        }
+      ],
+      "wikilinks": [
+        "Decision - Field of View 40",
+        "Decision - Top keys offset 3 m",
+        "Earth Studio Export Format",
+        "Flyover SaaS Backend",
+        "ONSC Clubhouse"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "keys",
+        "earth",
+        "studio",
+        "type",
+        "say",
+        "field",
+        "render",
+        "findings",
+        "verified",
+        "docs",
+        "build",
+        "keyframe"
+      ]
+    },
+    {
+      "title": "Failure Records — 2026-09-06.md",
+      "source": "Failure Records — 2026-09-06.md",
+      "source_sha256": "3092cad15e3e43195bbb972dab87e2f29ecee25415afd6662be8f98db3e29338",
+      "line_start": 1,
+      "line_end": 32,
+      "full_text_line_offset": 557,
+      "tokens": 1525,
+      "words": 889,
+      "sha256": "787c88114da7203cf7ae9b7275e5cfc223b3ab686d6c2210057d0bbca235725e",
+      "lead": "Failure corpus entries for the flyover project, written in the prose format the spectral-terrain \"slop-canon / cold-map\" doctrine already ingests (see `10-Projects/spectral-terrain/_spectral-terrain-Hub.md`, 2026-08-23 cold-map-5 note: \"man",
+      "headings": [
+        {
+          "level": 2,
+          "title": "Fracture 1 — Gate checked properties, not content",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "Fracture 2 — \"Watertight\" label survived multiple sessions unverified",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "Fracture 3 — The re-check itself over-corrected in the other direction",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "Fracture 4 — One-shot or resource-starved tests written up as settled verdicts",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "Fracture 5 — Hive notes compound unverified claims across sessions",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "Fracture 6 — Eight-plus candidate mesh files, zero convergence",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "title": "What actually helped, worth repeating (not a fracture — the counter-examples)",
+          "line": 26
+        }
+      ],
+      "wikilinks": [
+        "Twinmotion Agent Skill Plan (Antigravity)"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-08-23",
+        "last": "2026-09-06",
+        "count": 2
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "fracture",
+        "never",
+        "hire",
+        "again",
+        "note",
+        "file",
+        "render",
+        "real",
+        "mesh",
+        "every",
+        "decision",
+        "session"
+      ]
+    },
+    {
+      "title": "Flyover Pipeline.md",
+      "source": "Flyover Pipeline.md",
+      "source_sha256": "dfd5c92e1d9642df09f28cbd63a3f8a55d6b08f2d693cfaebebbd84dc3949dcb",
+      "line_start": 1,
+      "line_end": 40,
+      "full_text_line_offset": 591,
+      "tokens": 592,
+      "words": 356,
+      "sha256": "44efa687c647424aecf891f2c197e596f19f243b6fa643aee3847976930a9911",
+      "lead": "title: Flyover Pipeline",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Flyover Pipeline",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "Stages",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "Status (3 Sep 2026)",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "Decisions",
+          "line": 30
+        },
+        {
+          "level": 2,
+          "title": "Why",
+          "line": 36
+        }
+      ],
+      "wikilinks": [
+        "Decision - Field of View 40",
+        "Decision - Top keys offset 3 m",
+        "Earth Ground Truth Skill",
+        "Earth Studio Export Format",
+        "Earth Studio Findings",
+        "Flyover SaaS Backend",
+        "ONSC Clubhouse",
+        "Open - Pacing 22 s vs 44 s",
+        "Open - Renderer route",
+        "Product - Shingle Visualization",
+        "Renderer Hand-off"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "earth",
+        "flyover",
+        "studio",
+        "camera",
+        "renderer",
+        "product",
+        "saas",
+        "ground",
+        "truth",
+        "google",
+        "json",
+        "onsc"
+      ]
+    },
+    {
+      "title": "Flyover SaaS Backend.md",
+      "source": "Flyover SaaS Backend.md",
+      "source_sha256": "494dc7d86bb0d7af2feab82718c5ba6926d2bc756ba2467cb2628711a7ad571b",
+      "line_start": 1,
+      "line_end": 22,
+      "full_text_line_offset": 633,
+      "tokens": 286,
+      "words": 154,
+      "sha256": "64fcb3a35e28644756919472c498b2e1dc9180d4ce7a7d44fce1a7492db3fb94",
+      "lead": "title: Flyover SaaS Backend",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Flyover SaaS backend (designed in NotebookLM)",
+          "line": 8
+        }
+      ],
+      "wikilinks": [
+        "Earth Studio Export Format",
+        "Earth Studio Findings",
+        "Flyover Pipeline"
+      ],
+      "links": [],
+      "dates": null,
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "flyover",
+        "earth",
+        "studio",
+        "saas",
+        "backend",
+        "notebooklm",
+        "json",
+        "hand-off",
+        "frame",
+        "design",
+        "flight",
+        "csv"
+      ]
+    },
+    {
+      "title": "Inventory — 2026-10-07.md",
+      "source": "Inventory — 2026-10-07.md",
+      "source_sha256": "f928cf5618d496d513a3a0640e0c4638820c73f63c7530b5166e0cdd43f07cf5",
+      "line_start": 1,
+      "line_end": 43,
+      "full_text_line_offset": 657,
+      "tokens": 884,
+      "words": 473,
+      "sha256": "9441ba32e4ac378f6fc2c0bb4afd40dd55f3d38355612ea7803b6460033ddd57",
+      "lead": "Supersedes nothing; [[INVENTORY_AND_STATUS_QUO]] is the older Mac-side view. Key NAMES only — never values.",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Flyover / NoDrone — inventory (2026-10-07, swept live on the 5820)",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "Machine (Dell T5820, Windows + WSL2 Ubuntu)",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Apps (Windows)",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "Projects",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "Local AI (free, on the 3070)",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "Paid / keyed services (names only)",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "Services running here",
+          "line": 30
+        },
+        {
+          "level": 2,
+          "title": "Data in hand — Bodie Island Light Station (`C:\\Projects\\flyover\\sites\\bodie-island\\`)",
+          "line": 35
+        }
+      ],
+      "wikilinks": [
+        "INVENTORY_AND_STATUS_QUO"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-10-07",
+        "last": "2026-10-07",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "projects",
+        "free",
+        "mcp",
+        "flyover",
+        "bodie",
+        "key",
+        "blender",
+        "renders",
+        "colmap",
+        "depth",
+        "starnet",
+        "n8n"
+      ]
+    },
+    {
+      "title": "INVENTORY_AND_STATUS_QUO.md",
+      "source": "INVENTORY_AND_STATUS_QUO.md",
+      "source_sha256": "db6614f0784a7c71f9fba3d3e25274bc201a51cd1ace6d7b80ca8741422bc049",
+      "line_start": 1,
+      "line_end": 83,
+      "full_text_line_offset": 702,
+      "tokens": 1372,
+      "words": 747,
+      "sha256": "15eca44b9e00a4c2940518c8a4d07ec656411f79f85143f446c76d5072aeb104",
+      "lead": "Generated:** 2026-09-03 13:26:50 | **Source of Truth:** `/Users/joewales/Projects/flyover`",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Flyover System — Generated Inventory & Status Quo Audit",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "1. Active Repository Git State",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "2. Pipeline Execution Scorecard (Grounded Status)",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "3. Code vs. Evidence Staleness Matrix",
+          "line": 33
+        },
+        {
+          "level": 2,
+          "title": "4. Media Artifacts & Frame Accounting (Read via ffprobe)",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "5. Downloads / Staging Deduplication & Hash Verification",
+          "line": 55
+        },
+        {
+          "level": 2,
+          "title": "6. Specification & Boundary Compliance",
+          "line": 69
+        },
+        {
+          "level": 3,
+          "title": "A. Roof Geometry (`clubhouse_roof.json`)",
+          "line": 70
+        },
+        {
+          "level": 3,
+          "title": "B. Material Specification (`material_spec.json`)",
+          "line": 77
+        }
+      ],
+      "wikilinks": [],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 40,
+      "terms": [
+        "engine",
+        "mp4",
+        "verified",
+        "renders",
+        "sites",
+        "onsc-clubhouse",
+        "status",
+        "json",
+        "fresh",
+        "x1080",
+        "pass",
+        "blender_gbuffers_patch"
+      ]
+    },
+    {
+      "title": "Joint Pipeline Decision.md",
+      "source": "Joint Pipeline Decision.md",
+      "source_sha256": "d86ac6ceb7f4b4d4c2dec5eb20747b4a66392bcc5dcf629b2ec81bc6fe45a2e5",
+      "line_start": 1,
+      "line_end": 52,
+      "full_text_line_offset": 787,
+      "tokens": 1282,
+      "words": 742,
+      "sha256": "71de6896916f7b40f39c9d803fc66fc9416546c6f9adb96a50e4d894b1166fc2",
+      "lead": "Pointer note. Full document: `/Users/joewales/Projects/flyover/docs/2026-09-05-joint-pipeline-decision.md` (repo-local, not copied here — read it directly for the complete reasoning, tables and addendum).",
+      "headings": [
+        {
+          "level": 2,
+          "title": "What it is",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "Where both audits agreed (adopted)",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Stated priority order (§5 of the doc)",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "The addendum — Google Solar API cross-check undermines the aspect gate",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "Twinmotion's actual scope in the merged plan",
+          "line": 32
+        },
+        {
+          "level": 2,
+          "title": "Corrected error",
+          "line": 36
+        },
+        {
+          "level": 2,
+          "title": "Open, unverified (per the doc's own §6)",
+          "line": 40
+        }
+      ],
+      "wikilinks": [
+        "Server MCP Environment Audit"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2022-11-08",
+        "last": "2026-09-05",
+        "count": 2
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "google",
+        "roof",
+        "addendum",
+        "api",
+        "building",
+        "against",
+        "solar",
+        "realityscan",
+        "own",
+        "gate",
+        "twinmotion",
+        "aspect"
+      ]
+    },
+    {
+      "title": "Manager — Start Here.md",
+      "source": "Manager — Start Here.md",
+      "source_sha256": "b86c925200786e59f5b1f5dde8a5743c07a3201490292800b2a5947f9367d072",
+      "line_start": 1,
+      "line_end": 63,
+      "full_text_line_offset": 841,
+      "tokens": 1619,
+      "words": 1002,
+      "sha256": "73d7f6fe421275f344e17a13648705c6066cdf3ca3d8c8c1cb9f69fa2dee35c5",
+      "lead": "If you are reading this because the usual manager session isn't available: you are the manager now.** This page plus the links below is everything you need. Any Claude Code session, or any capable LLM with shell access, can pick it up.",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Manager — Start Here (NoDrone)",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "1. Who you work for, and how",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "2. Your crew (charters are the files; read them once)",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "3. Manager habits (why this role exists)",
+          "line": 30
+        },
+        {
+          "level": 2,
+          "title": "4. Task board (keep current — newest first)",
+          "line": 36
+        },
+        {
+          "level": 2,
+          "title": "5. Where things are",
+          "line": 55
+        }
+      ],
+      "wikilinks": [
+        "Capability Atlas",
+        "Crew",
+        "Playbook — Generated Aerials"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-10-08",
+        "last": "2026-10-10",
+        "count": 2
+      },
+      "code_blocks": 0,
+      "table_rows": 17,
+      "terms": [
+        "flyover",
+        "claude",
+        "projects",
+        "rows",
+        "commander",
+        "scout",
+        "sqft",
+        "scan",
+        "manager",
+        "card",
+        "renders",
+        "verifier"
+      ]
+    },
+    {
+      "title": "ONSC Clubhouse.md",
+      "source": "ONSC Clubhouse.md",
+      "source_sha256": "53fa15d2862be6e9e73174a28eb77d4b42bb738e1d293b7e5e39a6913a65a7f6",
+      "line_start": 1,
+      "line_end": 56,
+      "full_text_line_offset": 906,
+      "tokens": 1205,
+      "words": 845,
+      "sha256": "8a13c844f2d1f7b3688b792c2e4439da1e4a52732567e348c41eb4bcfe183340",
+      "lead": "title: ONSC Clubhouse",
+      "headings": [
+        {
+          "level": 1,
+          "title": "ONSC Clubhouse — Old North State Club, Uwharrie Point, Badin Lake NC",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "Ground truth",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "Flight: 22 s roof hero (`move.json`: open side 225°, clockwise, top offset 3 m)",
+          "line": 32
+        },
+        {
+          "level": 2,
+          "title": "Earth Studio",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "Files (repo `flyover/sites/onsc-clubhouse/`)",
+          "line": 47
+        },
+        {
+          "level": 2,
+          "title": "Still needed here",
+          "line": 50
+        }
+      ],
+      "wikilinks": [
+        "Flyover Pipeline",
+        "_flyover-Hub"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-02",
+        "last": "2026-09-07",
+        "count": 3
+      },
+      "code_blocks": 0,
+      "table_rows": 20,
+      "terms": [
+        "roof",
+        "asl",
+        "clubhouse",
+        "corner",
+        "west",
+        "end",
+        "agl",
+        "json",
+        "onsc",
+        "block",
+        "hero",
+        "orbit"
+      ]
+    },
+    {
+      "title": "Open - Pacing 22 s vs 44 s.md",
+      "source": "Open - Pacing 22 s vs 44 s.md",
+      "source_sha256": "9813cbf19bd2eef72cc3d26e27bde1626f2c9bbba5307a09a13dfa17253c3b25",
+      "line_start": 1,
+      "line_end": 13,
+      "full_text_line_offset": 964,
+      "tokens": 107,
+      "words": 79,
+      "sha256": "89852f5a499c1248a784e34994ad5b1150a212cdd52b5a3a22481d763338e89b",
+      "lead": "title: Open - Pacing 22 s vs 44 s",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Open: 22 s stylised vs 44 s real-drone pace",
+          "line": 8
+        }
+      ],
+      "wikilinks": [
+        "ONSC Clubhouse"
+      ],
+      "links": [],
+      "dates": null,
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "open",
+        "decision",
+        "stylised",
+        "drone",
+        "every",
+        "title",
+        "pacing",
+        "type",
+        "status",
+        "tags",
+        "flyover",
+        "real-drone"
+      ]
+    },
+    {
+      "title": "Open - Renderer route.md",
+      "source": "Open - Renderer route.md",
+      "source_sha256": "5439b145fb9b4c058bee580610fa4a50e342ac9721d48a7c07559c35e4c06f2b",
+      "line_start": 1,
+      "line_end": 16,
+      "full_text_line_offset": 979,
+      "tokens": 161,
+      "words": 92,
+      "sha256": "c0e79985f9a5e3cdec63b28f921189a6e90d53c516626528033b8582f0ffffbc",
+      "lead": "title: Open - Renderer route",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Open: which renderer route first",
+          "line": 8
+        }
+      ],
+      "wikilinks": [
+        "Renderer Hand-off"
+      ],
+      "links": [],
+      "dates": null,
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "renderer",
+        "open",
+        "photos",
+        "camera",
+        "route",
+        "decision",
+        "model",
+        "title",
+        "type",
+        "status",
+        "tags",
+        "flyover"
+      ]
+    },
+    {
+      "title": "Playbook — Generated Aerials.md",
+      "source": "Playbook — Generated Aerials.md",
+      "source_sha256": "607a8ad9b9bba2103b44ea20f60f05efd5f639a12ebdc6c756fc0035418c3b43",
+      "line_start": 1,
+      "line_end": 94,
+      "full_text_line_offset": 997,
+      "tokens": 4655,
+      "words": 3024,
+      "sha256": "ec423ffc16f44dfa0501007a625865cb761dcc04e34b5f96d32259145d4b3b34",
+      "lead": "Learned the hard way on Bodie Island (2026-10-07) and the Burj Khalifa stress test (2026-10-07 → 10-08). Read this before touching any NoDrone shot. Tools and paths: [[Capability Atlas]]. Doctrine: measured skeleton, generated skin, checked",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Playbook — Generated Aerials (lessons that let the next agent start ahead)",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "The pipeline that works (local, 8 GB GPU, no paid API)",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Rules (each one cost us a run)",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "Heights: where they come from (Dubai test, 3 km radius, 11,760 buildings)",
+          "line": 26
+        },
+        {
+          "level": 2,
+          "title": "Taste (the Commander's calls, all still binding)",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "Renders (for reference)",
+          "line": 52
+        },
+        {
+          "level": 2,
+          "title": "Scout lessons",
+          "line": 58
+        },
+        {
+          "level": 2,
+          "title": "Verifier lessons",
+          "line": 81
+        },
+        {
+          "level": 2,
+          "title": "Shot Maker lessons",
+          "line": 86
+        }
+      ],
+      "wikilinks": [
+        "Capability Atlas"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2024-03-27",
+        "last": "2026-10-10",
+        "count": 4
+      },
+      "code_blocks": 0,
+      "table_rows": 7,
+      "terms": [
+        "lidar",
+        "hero",
+        "roof",
+        "frame",
+        "buildings",
+        "measured",
+        "building",
+        "gpu",
+        "min",
+        "cells",
+        "naip",
+        "overture"
+      ]
+    },
+    {
+      "title": "Product - Shingle Visualization.md",
+      "source": "Product - Shingle Visualization.md",
+      "source_sha256": "1d3cfa1280b740fd225316bd93eae06c9eb7ba0262a9af4241ede6e3c1c00aa5",
+      "line_start": 1,
+      "line_end": 24,
+      "full_text_line_offset": 1093,
+      "tokens": 538,
+      "words": 349,
+      "sha256": "633c4a6a94ba8bb965280996fe3497363740778db58c7b7a50a7ff543fa9939e",
+      "lead": "title: Product - Shingle Visualization",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Product: the prospect's roof, in any shingle",
+          "line": 9
+        }
+      ],
+      "wikilinks": [
+        "ONSC Clubhouse",
+        "Open - Renderer route"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-03",
+        "last": "2026-09-03",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "shingle",
+        "roof",
+        "product",
+        "material",
+        "camera",
+        "planes",
+        "frames",
+        "flyover",
+        "prospect",
+        "building",
+        "recon",
+        "sun"
+      ]
+    },
+    {
+      "title": "Renderer Hand-off.md",
+      "source": "Renderer Hand-off.md",
+      "source_sha256": "c1ddf4eabc29f05fe02d22d3b9c7251a9b4d560ed26fdd244d27aca8d8f9136d",
+      "line_start": 1,
+      "line_end": 21,
+      "full_text_line_offset": 1119,
+      "tokens": 292,
+      "words": 174,
+      "sha256": "e2cd5ea9ba69c1a9a410015eaf42e80731c93da393b829a9f79377c0d063b2bb",
+      "lead": "title: Renderer Hand-off",
+      "headings": [
+        {
+          "level": 1,
+          "title": "Renderer hand-off (next stage)",
+          "line": 8
+        }
+      ],
+      "wikilinks": [
+        "ONSC Clubhouse",
+        "Open - Renderer route",
+        "Product - Shingle Visualization"
+      ],
+      "links": [],
+      "dates": null,
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "renderer",
+        "roof",
+        "hand-off",
+        "stage",
+        "higgsfield",
+        "helios",
+        "geometry",
+        "earth",
+        "anchors",
+        "camera",
+        "csv",
+        "product"
+      ]
+    },
+    {
+      "title": "Server MCP Environment Audit.md",
+      "source": "Server MCP Environment Audit.md",
+      "source_sha256": "ff0981e3fd76f6bea433e9447791422a826eda4720f5ee4159556978a77d5396",
+      "line_start": 1,
+      "line_end": 44,
+      "full_text_line_offset": 1142,
+      "tokens": 1669,
+      "words": 929,
+      "sha256": "e23fa163956e6f334d34cdba60c3bf69275796f86600fc7d0b3cb401358073b4",
+      "lead": "Findings from a direct audit of this Mac's Claude Code config and a live SSH session into the Dell 5820, run 2026-09-05 (later session) before committing to more Twinmotion/UE5 build work. SSH works even though ICMP is blocked (`ping` times",
+      "headings": [
+        {
+          "level": 2,
+          "title": "MCP reality check — nothing Unreal/Blender is live from here",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "Dell 5820 — hardware",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "Dell 5820 — Twinmotion & RealityScan",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "Dell 5820 — repo state",
+          "line": 26
+        },
+        {
+          "level": 2,
+          "title": "RealityScan — background research findings (secondary-sourced; realityscan.com's own site is login-gated)",
+          "line": 33
+        }
+      ],
+      "wikilinks": [
+        "Joint Pipeline Decision"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-05",
+        "last": "2026-09-05",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "realityscan",
+        "files",
+        "mcp",
+        "blender",
+        "real",
+        "confirmed",
+        "epic",
+        "audit",
+        "twinmotion",
+        "doc",
+        "mac",
+        "ssh"
+      ]
+    },
+    {
+      "title": "Twinmotion Agent Skill Plan (Antigravity).md",
+      "source": "Twinmotion Agent Skill Plan (Antigravity).md",
+      "source_sha256": "f976b6897667e13c9680e49cf1b55ceb6a8bbc08188830a1d60e898a4bee4a0f",
+      "line_start": 1,
+      "line_end": 27,
+      "full_text_line_offset": 1188,
+      "tokens": 912,
+      "words": 481,
+      "sha256": "f84ac92528cc9767382beeb8e1a756e88692d27be487cf7874a9f212e8eae4bd",
+      "lead": "Pointer note. Full document: `/Users/joewales/.gemini/antigravity-ide/brain/991f46e5-0581-4afd-90c7-0a58f52c7332/implementation_plan.md` (Antigravity IDE's local brain storage, not the git repo, not synced anywhere else — copy out anything ",
+      "headings": [
+        {
+          "level": 2,
+          "title": "What it is",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "Verdict: genuine, technically sound",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "The conflict to resolve before building this literally",
+          "line": 16
+        }
+      ],
+      "wikilinks": [
+        "Joint Pipeline Decision",
+        "Server MCP Environment Audit"
+      ],
+      "links": [],
+      "dates": {
+        "first": "2026-09-05",
+        "last": "2026-09-05",
+        "count": 1
+      },
+      "code_blocks": 0,
+      "table_rows": 0,
+      "terms": [
+        "twinmotion",
+        "plan",
+        "render",
+        "architecture",
+        "decision",
+        "automation",
+        "note",
+        "gemini",
+        "agent",
+        "skill",
+        "pipeline",
+        "session"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "label": "flyover",
+  "created": "2026-10-12T11:37:04-07:00",
+  "paths": [
+    "/home/themachinist/Hive/10-Projects/flyover"
+  ],
+  "files": [
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/_flyover-Hub.md",
+      "sha256": "9d4bbc70606c3645a45b5fd524e33f01ed0b0d6d4462a1884b2a9487a287049f"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/AI_DRONE_CINEMATOGRAPHY_BLUEPRINT.md",
+      "sha256": "24c273e9410fd38953532e19bd0a552ab32553c24f3265f7a7a508f6013e6602"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Capability Assessment — 2026-09-15.md",
+      "sha256": "0014f3f24ea20b864f147f1e948ca58041ec86ab48e39ca0864be729491146d6"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Capability Atlas.md",
+      "sha256": "b1a01222a4a698fc0e938b7de7bd784fcc13a36d51de8f7f773f5fd8ffc0a1fd"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Crew.md",
+      "sha256": "d1618a88eac3f99577d08eb001ff7df95aee51ac620c4c6f36e3227e9ae6db7b"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Decision - Field of View 40.md",
+      "sha256": "cce4c37173cfcbaa036402a16d443d333b61b6d9b3fb130b4b5a31b05439d96d"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Decision - Top keys offset 3 m.md",
+      "sha256": "08e78c0b2366d6ad4d456e58c9cfa02ee2d719e502b0e8096f8ebed18e83cd0e"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Earth Ground Truth Skill.md",
+      "sha256": "8a4d33e3c125de299e00056a86f87fcbd91400d119cc75c4d2f42afbc88180db"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Earth Studio Export Format.md",
+      "sha256": "85a6917bae4688a46527428c7bdeea5f01d75f86ade1c28e9815d27a6778662e"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Earth Studio Findings.md",
+      "sha256": "a8e479f488111fe8a545d1fcf40ddd8c53e1d288ed47afa37b4b3199f9a7b3a2"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Failure Records — 2026-09-06.md",
+      "sha256": "3092cad15e3e43195bbb972dab87e2f29ecee25415afd6662be8f98db3e29338"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Flyover Pipeline.md",
+      "sha256": "dfd5c92e1d9642df09f28cbd63a3f8a55d6b08f2d693cfaebebbd84dc3949dcb"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Flyover SaaS Backend.md",
+      "sha256": "494dc7d86bb0d7af2feab82718c5ba6926d2bc756ba2467cb2628711a7ad571b"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Inventory — 2026-10-07.md",
+      "sha256": "f928cf5618d496d513a3a0640e0c4638820c73f63c7530b5166e0cdd43f07cf5"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/INVENTORY_AND_STATUS_QUO.md",
+      "sha256": "db6614f0784a7c71f9fba3d3e25274bc201a51cd1ace6d7b80ca8741422bc049"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Joint Pipeline Decision.md",
+      "sha256": "d86ac6ceb7f4b4d4c2dec5eb20747b4a66392bcc5dcf629b2ec81bc6fe45a2e5"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Manager — Start Here.md",
+      "sha256": "b86c925200786e59f5b1f5dde8a5743c07a3201490292800b2a5947f9367d072"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/ONSC Clubhouse.md",
+      "sha256": "53fa15d2862be6e9e73174a28eb77d4b42bb738e1d293b7e5e39a6913a65a7f6"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Open - Pacing 22 s vs 44 s.md",
+      "sha256": "9813cbf19bd2eef72cc3d26e27bde1626f2c9bbba5307a09a13dfa17253c3b25"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Open - Renderer route.md",
+      "sha256": "5439b145fb9b4c058bee580610fa4a50e342ac9721d48a7c07559c35e4c06f2b"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Playbook — Generated Aerials.md",
+      "sha256": "607a8ad9b9bba2103b44ea20f60f05efd5f639a12ebdc6c756fc0035418c3b43"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Product - Shingle Visualization.md",
+      "sha256": "1d3cfa1280b740fd225316bd93eae06c9eb7ba0262a9af4241ede6e3c1c00aa5"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Renderer Hand-off.md",
+      "sha256": "c1ddf4eabc29f05fe02d22d3b9c7251a9b4d560ed26fdd244d27aca8d8f9136d"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Server MCP Environment Audit.md",
+      "sha256": "ff0981e3fd76f6bea433e9447791422a826eda4720f5ee4159556978a77d5396"
+    },
+    {
+      "path": "/home/themachinist/Hive/10-Projects/flyover/Twinmotion Agent Skill Plan (Antigravity).md",
+      "sha256": "f976b6897667e13c9680e49cf1b55ceb6a8bbc08188830a1d60e898a4bee4a0f"
+    }
+  ]
+}
